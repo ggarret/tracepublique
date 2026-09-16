@@ -56,10 +56,17 @@ et institutionnelle, sociale, environnementale, éthique et libertés, et
 faisabilité de mise en œuvre. Les pondérations de référence sont respectivement
 20 %, 20 %, 15 %, 15 %, 15 % et 15 %.
 
-La [grille de notation auditable](GRILLE_NOTATION.md) définit l'échelle 0–10,
-les justificatifs obligatoires, le calcul agrégé facultatif et les conditions
-d'abstention. La [charte de neutralité](CHARTE_NEUTRALITE.md) précise les
-garanties éditoriales et l'absence de note politique globale imposée.
+La [grille de notation auditable](GRILLE_NOTATION.md) définit, en version 2.0,
+une échelle entière de 0 à 100 avec cinq bandes et des ancres observables
+propres à chaque critère. La note visible est le **score de robustesse
+documentaire de la proposition** : elle ne mesure ni sa légitimité, ni sa
+valeur politique, ni l'opinion de l'observatoire.
+
+Quatre objets restent séparés : la fiabilité de l'attribution, la qualité
+documentaire du dossier, l'analyse propre à chaque IA et la légitimité/opinion
+politique. Seul le deuxième peut entrer dans le score. La [charte de
+neutralité](CHARTE_NEUTRALITE.md) précise les garanties éditoriales et
+l'absence de note politique globale imposée.
 
 Une note décrit la qualité des éléments documentés au regard d'un critère ;
 elle ne mesure pas la valeur d'un candidat. Les faits et les conséquences
@@ -88,9 +95,36 @@ La comparaison porte sur les faits retrouvés, la qualité et la couverture des
 sources, les raisonnements, les notes, les abstentions, les omissions et les
 erreurs. Une convergence n'est pas une validation indépendante ; une
 divergence doit être décrite puis vérifiée. Aucun modèle ne décide seul de la
-publication.
+publication. Le site ne présente donc pas les deux sorties comme un
+« consensus GPT/Claude » et ne fusionne pas leurs notes.
 
-## 7. Reproductibilité et gouvernance des changements
+## 7. Calcul, incertitude et reproductibilité
+
+Pour chaque critère, l'évaluateur conserve les faits observés, leurs sources,
+la bande de la grille 2.0 satisfaite, la valeur entière choisie, les hypothèses,
+les informations manquantes et un niveau d'incertitude indépendant de la note.
+Une fiche nouvelle indique explicitement `gridVersion`,
+`methodologyVersion`, un `corpus` ou un `prompt` avec identifiant et version,
+un `reviewer` identifié avec son rôle, ainsi qu'une confiance et une
+incertitude avec leurs raisons. L'agrégation déclare sa méthode, la grille,
+le nombre de critères et l'arrondi utilisés.
+
+Lorsque les six critères sont notables, le score global est la moyenne pondérée
+déterministe, arrondie à l'entier le plus proche :
+
+```text
+arrondi(Σ(score du critère × poids) / Σ(poids))
+```
+
+Un critère manquant, abstenu ou non sourçable interdit l'agrégat ; il ne vaut
+jamais zéro. L'abstention est portée dans les données par un objet explicite
+avec motif, informations manquantes et conditions de réexamen, sans valeur
+numérique ni bande de score. Les notes des 67 propositions déjà publiées ne
+sont pas recalculées par le passage à la version 2.0 : elles restent
+identifiables comme résultats historiques provisoires jusqu'à leur
+réévaluation.
+
+## 8. Reproductibilité et gouvernance des changements
 
 Toute analyse doit être rattachée à une version de la grille, de la méthode et
 du prompt. Toute modification de critère, pondération, périmètre ou règle de
@@ -103,7 +137,7 @@ conformément aux documents [INGESTION](INGESTION.md), [PIPELINE](PIPELINE.md),
 [REVIEW](REVIEW.md) et [ADMIN](ADMIN.md). Une suggestion issue d'un modèle ou
 d'un flux ne constitue jamais à elle seule une publication.
 
-## 8. Limites connues
+## 9. Limites connues
 
 Les programmes peuvent être incomplets, évolutifs ou non chiffrés ; les effets
 réels dépendent du contexte, de l'administration et des réactions des acteurs.

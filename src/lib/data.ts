@@ -44,9 +44,10 @@ export function getTrackRecords(candidateId: string) {
 
 /** Calcule la moyenne pondérée sur les six critères de la grille publique. */
 export function getOverallScore(proposal: Proposal) {
+  if (proposal.evaluation.status === "abstention" || proposal.scores.some((score) => score.abstention || score.value === undefined)) return null;
   const scores = proposal.scores
     .map((score) => ({ score, criterion: evaluationCriteria.find((criterion) => criterion.id === score.criterionId) }))
-    .filter((item): item is { score: Proposal["scores"][number]; criterion: EvaluationCriterion } => Boolean(item.criterion));
+    .filter((item): item is { score: Proposal["scores"][number] & { value: number }; criterion: EvaluationCriterion } => Boolean(item.criterion) && typeof item.score.value === "number");
 
   if (scores.length !== evaluationCriteria.length) return null;
   const totalWeight = scores.reduce((total, item) => total + item.criterion.weight, 0);

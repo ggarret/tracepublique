@@ -32,19 +32,74 @@ export type Program = {
 };
 
 /** Critère versionné utilisé pour calculer le score de robustesse d'un dossier. */
+export type EvaluationBand = {
+  min: number;
+  max: number;
+  label: string;
+  anchor: string;
+};
+
 export type EvaluationCriterion = {
   id: string;
   label: string;
   weight: number;
   color: string;
   description: string;
+  gridVersion: string;
+  evidenceDimensions: string[];
+  bands: EvaluationBand[];
+};
+
+export type ScoreUncertainty = {
+  level: "faible" | "moyenne" | "forte";
+  reasons: string[];
+  interval?: { min: number; max: number };
+};
+
+export type EvaluationConfidence = {
+  level: "faible" | "moyenne" | "forte";
+  reasons: string[];
+};
+
+export type EvaluationCorpus = {
+  id: string;
+  version: string;
+};
+
+export type EvaluationPrompt = {
+  id: string;
+  version: string;
+};
+
+export type EvaluationReviewer = {
+  id: string;
+  role: string;
+};
+
+export type EvaluationAggregation = {
+  method: "moyenne-ponderee";
+  gridVersion: string;
+  criterionCount: number;
+  rounding: "nearest-integer";
+};
+
+export type EvaluationAbstention = {
+  reason: string;
+  missingInformation: string[];
+  reconsiderationConditions: string[];
 };
 
 export type ProposalScore = {
   criterionId: string;
-  value: number;
+  value?: number;
   explanation: string;
   sourceIds: string[];
+  /** Champ à renseigner pour toute nouvelle évaluation ; absent dans les notes historiques non recalculées. */
+  band?: Pick<EvaluationBand, "min" | "max" | "label">;
+  uncertainty?: ScoreUncertainty;
+  observedFacts?: string[];
+  missingInformation?: string[];
+  abstention?: EvaluationAbstention;
 };
 
 /** Proposition publiée avec ses sources, analyses et critères de notation. */
@@ -66,9 +121,19 @@ export type Proposal = {
   sourceIds: string[];
   analysis: { gpt: string; claude: string };
   evaluation: {
-    status: "provisoire" | "validée";
+    status: "provisoire" | "validée" | "abstention";
     methodologyVersion: string;
     evaluatedAt: string;
+    /** Le score décrit le dossier de la proposition, pas sa valeur politique. */
+    scoreLabel?: "robustesse-documentaire";
+    gridVersion?: string;
+    corpus?: EvaluationCorpus;
+    prompt?: EvaluationPrompt;
+    reviewer?: EvaluationReviewer;
+    aggregation?: EvaluationAggregation;
+    confidence?: EvaluationConfidence;
+    uncertainty?: ScoreUncertainty;
+    abstention?: EvaluationAbstention;
   };
   scores: ProposalScore[];
 };

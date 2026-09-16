@@ -140,7 +140,7 @@ export default async function ProposalPage({ params }: { params: Promise<{ id: s
           <section className="content-section" aria-labelledby="notation-title">
             <div className="score-heading">
               <div>
-                <p className="eyebrow">Note IA · robustesse documentaire</p>
+                <p className="eyebrow">Score documentaire IA · {overallScore ? `${overallScore.value}/100` : "abstention"}</p>
                 <h2 id="notation-title">Grille d’évaluation</h2>
               </div>
               {overallScore ? (
@@ -150,21 +150,20 @@ export default async function ProposalPage({ params }: { params: Promise<{ id: s
                 </div>
               ) : null}
             </div>
-            <p className="score-disclaimer">Cette note globale mesure la robustesse documentaire selon la grille publique, jamais la qualité politique, la popularité ou la légitimité de la proposition.</p>
+            <p className="score-disclaimer">Ce score /100 est produit avec assistance IA selon la grille publique, puis relu humainement. Il mesure la robustesse documentaire, jamais la qualité politique, la popularité, la légitimité ou un consensus GPT/Claude.</p>
             {proposal.scores.length === 0 ? (
               <div className="empty-state">Aucune note publiée. La notation apparaîtra après vérification humaine et documentation des critères.</div>
             ) : (
               <div className="score-list">
                 {proposal.scores.map((score) => (
-                  <div className="score-row" key={score.criterionId} style={{ "--score-color": scoreColor(score.value) } as CSSProperties}>
+                  <div className="score-row" key={score.criterionId} style={score.value === undefined ? undefined : { "--score-color": scoreColor(score.value) } as CSSProperties}>
                     <div className="score-copy">
                       <strong>{evaluationCriteria.find((criterion) => criterion.id === score.criterionId)?.label ?? score.criterionId}</strong>
                       <span>{score.explanation}</span>
                       <small>Sources : {score.sourceIds.map((sourceId) => proposalSources.find((source) => source.id === sourceId)?.publisher).filter(Boolean).join(" · ")}</small>
                     </div>
                     <div className="score-result">
-                      <b>{score.value}/100</b>
-                      <span className="score-meter" aria-hidden="true"><i style={{ width: `${score.value}%` }} /></span>
+                      {score.value === undefined ? <b>Abstention</b> : <><b>{score.value}/100</b><span className="score-meter" aria-hidden="true"><i style={{ width: `${score.value}%` }} /></span></>}
                     </div>
                   </div>
                 ))}

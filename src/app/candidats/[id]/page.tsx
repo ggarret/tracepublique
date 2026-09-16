@@ -120,7 +120,7 @@ export default async function CandidatePage({ params }: { params: Promise<{ id: 
                 <div className="meta">
                   <span className="tag">{getTheme(proposal.themeId)?.label}</span>
                   <span>{proposal.attribution.label}</span>
-                  {overallScore ? <span className="score-chip">Note IA · {overallScore.value}/100</span> : null}
+                  {overallScore ? <span className="score-chip">Score documentaire IA · {overallScore.value}/100</span> : null}
                 </div>
                 <h3><Link href={`/propositions/${proposal.id}`}>{proposal.title}</Link></h3>
                 <p>{proposal.summary}</p>

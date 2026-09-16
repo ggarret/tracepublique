@@ -50,7 +50,9 @@ Chaque entrée de `analyses.gpt` et `analyses.claude` possède la même forme :
   `missingInformation` doivent être renseignés. `reconsiderationConditions`
   documente le réexamen, y compris lorsque la décision est `false`.
 
-`comparison.disagreements` ne fusionne pas les sorties : chaque désaccord
+Les notes éventuelles dans une analyse IA décrivent l'analyse de ce modèle et
+ne remplacent jamais la grille documentaire validée. `comparison.disagreements`
+ne fusionne pas les sorties : chaque désaccord
 conserve les deux positions et un état (`resolved`, `unresolved` ou
 `not-applicable`). La résolution humaine, si elle existe, peut être ajoutée
 dans `resolutionNote` sans effacer les positions originales.
@@ -61,9 +63,12 @@ Règles de gouvernance :
 2. Les versions du modèle et du prompt, ainsi que la date UTC, sont conservées.
 3. Une source est référencée par son identifiant du corpus ; le validateur
    refuse les références inconnues et les doublons.
-4. La convergence des analyses n'est pas une validation indépendante.
-5. Une abstention n'est jamais codée comme une note nulle et reste visible.
-6. Une fixture doit avoir `fixture: true` et ne doit pas être publiée comme une
+4. La convergence des analyses n'est pas une validation indépendante et ne
+   constitue pas un consensus GPT/Claude.
+5. La fiabilité de l'attribution, la qualité documentaire du dossier, l'analyse
+   propre à chaque modèle et la légitimité politique sont des objets distincts.
+6. Une abstention n'est jamais codée comme une note nulle et reste visible.
+7. Une fixture doit avoir `fixture: true` et ne doit pas être publiée comme une
    analyse réelle.
 
 Le contrôle local s'exécute avec `yarn validate:ai`. Il est en lecture seule et

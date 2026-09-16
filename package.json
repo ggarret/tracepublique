@@ -21,6 +21,7 @@
     "db:migrate:deploy": "yarn workspace observatoire-api prisma:migrate:deploy",
     "db:seed": "yarn workspace observatoire-api prisma:seed",
     "validate:data": "node scripts/validate-data.mjs",
+    "validate:evaluation-contract": "node tests/validate-evaluation-contract.mjs",
     "audit:coverage": "node scripts/generate-corpus-coverage.mjs",
     "validate:ai": "node scripts/validate-ai-analysis.mjs",
     "validate:snapshot": "node scripts/validate-snapshot.mjs",

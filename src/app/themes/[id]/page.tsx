@@ -47,7 +47,7 @@ export default async function ThemePage({ params }: { params: Promise<{ id: stri
               <div className="proposal-card-main">
                 <div className="meta">
                   <span>{candidate?.name}</span>
-                  {overallScore ? <span className="score-chip">Note IA · {overallScore.value}/100</span> : null}
+                  {overallScore ? <span className="score-chip">Score documentaire IA · {overallScore.value}/100</span> : null}
                 </div>
                 <h3><Link href={`/propositions/${proposal.id}`}>{proposal.title}</Link></h3>
                 <p>{proposal.summary}</p>

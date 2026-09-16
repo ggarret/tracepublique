@@ -97,7 +97,7 @@ export function ProposalFeed({ proposals, candidates, themes, sources }: Props) 
                     <span className="tag">{theme?.label}</span>
                     <span className="status-pill">{proposal.status}</span>
                     <span>Fiabilité de l’attribution : {proposal.confidence}</span>
-                    {overallScore ? <span className="score-chip">Note IA · {overallScore.value}/100</span> : null}
+                    {overallScore ? <span className="score-chip">Score documentaire IA · {overallScore.value}/100</span> : null}
                   </div>
                   <h3><Link href={`/propositions/${proposal.id}`}>{proposal.title}</Link></h3>
                   <p>{proposal.summary}</p>

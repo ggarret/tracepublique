@@ -4,41 +4,95 @@
     "label": "Économie et budget",
     "weight": 20,
     "color": "#3657B5",
-    "description": "Chiffrage, financement, hypothèses économiques et effets attendus."
+    "description": "Chiffrage, financement, hypothèses économiques et effets attendus.",
+    "gridVersion": "2.0",
+    "evidenceDimensions": ["coût ou rendement", "financement", "hypothèses", "effets attendus"],
+    "bands": [
+      { "min": 0, "max": 19, "label": "Non documenté", "anchor": "Aucun montant, financement ou mécanisme économique vérifiable ; ou impossibilité établie." },
+      { "min": 20, "max": 39, "label": "Très partiel", "anchor": "Un élément est chiffré ou décrit, mais les coûts, recettes et hypothèses déterminantes manquent." },
+      { "min": 40, "max": 59, "label": "Partiel", "anchor": "Coût ou financement plausible et sourcé, mais au moins une hypothèse sensible ou un effet important reste non traité." },
+      { "min": 60, "max": 79, "label": "Étayé", "anchor": "Coûts, financement et principales hypothèses sont documentés ; les limites ou effets distributifs sont explicités." },
+      { "min": 80, "max": 100, "label": "Très étayé", "anchor": "Chiffrage reproductible, financement explicite, hypothèses testables, scénarios ou sensibilité et effets attendus sourcés." }
+    ]
   },
   {
     "id": "law-institutions",
     "label": "Droit et institutions",
     "weight": 20,
     "color": "#167B8C",
-    "description": "Compétence, procédure, constitutionnalité, droit européen et précédents."
+    "description": "Compétence, procédure, constitutionnalité, droit européen et précédents.",
+    "gridVersion": "2.0",
+    "evidenceDimensions": ["base légale", "compétence", "procédure", "contraintes supérieures"],
+    "bands": [
+      { "min": 0, "max": 19, "label": "Non documenté", "anchor": "Aucune base légale ou autorité compétente identifiable ; ou incompatibilité documentée non traitée." },
+      { "min": 20, "max": 39, "label": "Très partiel", "anchor": "Le levier juridique est nommé, mais la compétence, la procédure ou une contrainte majeure manque." },
+      { "min": 40, "max": 59, "label": "Partiel", "anchor": "Base ou procédure plausible et sourcée, avec des réserves non résolues sur la constitutionnalité, l'Union ou les engagements internationaux." },
+      { "min": 60, "max": 79, "label": "Étayé", "anchor": "Compétence, véhicule et principales contraintes sont traités avec sources et réserves explicites." },
+      { "min": 80, "max": 100, "label": "Très étayé", "anchor": "Analyse vérifiable de la base, de la compétence, de la procédure et des contraintes supérieures, avec précédents ou contre-arguments." }
+    ]
   },
   {
     "id": "social-effects",
     "label": "Effets sociaux",
     "weight": 15,
     "color": "#A13D78",
-    "description": "Publics concernés, effets distributifs, égalité et accès aux droits."
+    "description": "Publics concernés, effets distributifs, égalité et accès aux droits.",
+    "gridVersion": "2.0",
+    "evidenceDimensions": ["publics touchés", "distribution", "égalité", "accès effectif"],
+    "bands": [
+      { "min": 0, "max": 19, "label": "Non documenté", "anchor": "Aucun public, effet social ou condition d'accès identifiable à partir de sources vérifiables." },
+      { "min": 20, "max": 39, "label": "Très partiel", "anchor": "Un public est mentionné, sans analyse des effets distributifs, des inégalités ou des obstacles d'accès." },
+      { "min": 40, "max": 59, "label": "Partiel", "anchor": "Les principaux publics et un effet social sont documentés, mais les groupes vulnérables ou effets indirects restent incomplets." },
+      { "min": 60, "max": 79, "label": "Étayé", "anchor": "Publics, distribution, égalité et accès sont examinés ; les limites de données et les effets indirects sont signalés." },
+      { "min": 80, "max": 100, "label": "Très étayé", "anchor": "Analyse sourcée et reproductible par groupe ou territoire, avec effets directs, indirects, mesures d'accès et limites." }
+    ]
   },
   {
     "id": "environment",
     "label": "Environnement",
     "weight": 15,
     "color": "#2D7A4F",
-    "description": "Climat, énergie, ressources, santé environnementale et effets indirects."
+    "description": "Climat, énergie, ressources, santé environnementale et effets indirects.",
+    "gridVersion": "2.0",
+    "evidenceDimensions": ["périmètre", "horizon", "impacts", "effets déplacés"],
+    "bands": [
+      { "min": 0, "max": 19, "label": "Non documenté", "anchor": "Aucun impact environnemental, périmètre ou indicateur vérifiable n'est fourni." },
+      { "min": 20, "max": 39, "label": "Très partiel", "anchor": "Un impact est affirmé, sans horizon, périmètre, ordre de grandeur ni traitement des effets déplacés." },
+      { "min": 40, "max": 59, "label": "Partiel", "anchor": "Un périmètre et des impacts plausibles sont sourcés, mais les données ou effets indirects restent lacunaires." },
+      { "min": 60, "max": 79, "label": "Étayé", "anchor": "Périmètre, horizon, principaux impacts et incertitudes sont documentés avec indicateurs ou sources adaptées." },
+      { "min": 80, "max": 100, "label": "Très étayé", "anchor": "Quantification ou méthode reproductible des impacts directs et indirects, scénarios et limites de mesure explicités." }
+    ]
   },
   {
     "id": "ethics-freedoms",
     "label": "Éthique et libertés",
     "weight": 15,
     "color": "#B56A16",
-    "description": "Droits fondamentaux, proportionnalité, équité et voies de recours."
+    "description": "Droits fondamentaux, proportionnalité, équité et voies de recours.",
+    "gridVersion": "2.0",
+    "evidenceDimensions": ["droits concernés", "nécessité", "proportionnalité", "recours"],
+    "bands": [
+      { "min": 0, "max": 19, "label": "Non documenté", "anchor": "Aucun droit, risque de discrimination, atteinte ou mécanisme de recours n'est identifiable." },
+      { "min": 20, "max": 39, "label": "Très partiel", "anchor": "Un risque est mentionné, sans test de nécessité, de proportionnalité, d'équité ou de recours." },
+      { "min": 40, "max": 59, "label": "Partiel", "anchor": "Les droits principalement concernés sont identifiés, mais la mise en balance ou les garanties reste incomplète." },
+      { "min": 60, "max": 79, "label": "Étayé", "anchor": "Droits, risques, garanties et voies de recours sont examinés ; les désaccords normatifs sont distingués des faits." },
+      { "min": 80, "max": 100, "label": "Très étayé", "anchor": "Test sourcé de nécessité et proportionnalité, traitement des groupes exposés, garanties réversibles et recours effectifs." }
+    ]
   },
   {
     "id": "feasibility",
     "label": "Faisabilité",
     "weight": 15,
     "color": "#6654A3",
-    "description": "Calendrier, moyens administratifs, dépendances, contrôles et indicateurs."
+    "description": "Calendrier, moyens administratifs, dépendances, contrôles et indicateurs.",
+    "gridVersion": "2.0",
+    "evidenceDimensions": ["responsables", "calendrier", "moyens", "contrôle et mesure"],
+    "bands": [
+      { "min": 0, "max": 19, "label": "Non documenté", "anchor": "Aucun responsable, calendrier, moyen ou mécanisme de contrôle vérifiable." },
+      { "min": 20, "max": 39, "label": "Très partiel", "anchor": "Le mécanisme est énoncé, mais les dépendances, ressources ou conditions de déploiement manquent." },
+      { "min": 40, "max": 59, "label": "Partiel", "anchor": "Responsables ou calendrier plausibles et sourcés, avec des inconnues importantes sur les moyens ou contrôles." },
+      { "min": 60, "max": 79, "label": "Étayé", "anchor": "Responsables, étapes, moyens, dépendances et indicateurs principaux sont documentés ; les risques sont circonscrits." },
+      { "min": 80, "max": 100, "label": "Très étayé", "anchor": "Plan de mise en œuvre vérifiable, ressources et dépendances explicites, contrôles, indicateurs, échéances et conditions d'arrêt." }
+    ]
   }
 ]
