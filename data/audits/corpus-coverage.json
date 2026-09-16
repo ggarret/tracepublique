@@ -1,0 +1,3098 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "dataAsOf": "2026-09-16",
+  "inputs": {
+    "candidates": {
+      "path": "data/candidates.json",
+      "count": 10
+    },
+    "themes": {
+      "path": "data/themes.json",
+      "count": 8
+    },
+    "programs": {
+      "path": "data/programs.json",
+      "count": 10
+    },
+    "proposals": {
+      "path": "data/proposals.json",
+      "count": 67
+    },
+    "sources": {
+      "path": "data/sources.json",
+      "count": 46
+    },
+    "trackRecords": {
+      "path": "data/track-records.json",
+      "count": 4
+    }
+  },
+  "totals": {
+    "candidates": 10,
+    "themes": 8,
+    "programs": 10,
+    "proposals": 67,
+    "sources": 46,
+    "trackRecords": 4,
+    "candidateThemeCells": 80,
+    "coveredCandidateThemeCells": 58,
+    "emptyCandidateThemeCells": 22,
+    "historicalProposals": 10,
+    "secondaryOnlyProposals": 2,
+    "nonExhaustivePrograms": 7,
+    "candidatesWithoutQualifiedPrecedent": 6,
+    "unmappedProposals": 0
+  },
+  "attributionCounts": {
+    "candidate": 11,
+    "campaign": 28,
+    "party": 18,
+    "past_program": 10
+  },
+  "sourceCoverage": {
+    "primarySources": 44,
+    "secondarySources": 2,
+    "proposalsWithAtLeastOnePrimarySource": 65,
+    "proposalsWithSecondarySourcesOnly": 2,
+    "secondarySourceIds": [
+      "source-bfmtv-carburant-melenchon-20260915",
+      "source-bfmtv-ordre-republicain-retailleau-20260915"
+    ]
+  },
+  "programStatusCounts": {
+    "document_programmatique_2027": 1,
+    "document_programmatique_a_requalifier": 1,
+    "orientations_2027": 1,
+    "orientations_a_qualifier": 1,
+    "programme_anterieur_a_requalifier": 1,
+    "programme_collectif_2027": 1,
+    "programme_partiel_2027": 1,
+    "programme_progressif_2027": 2,
+    "socle_programmatique_2027": 1
+  },
+  "candidateCoverage": [
+    {
+      "candidateId": "marine-le-pen",
+      "name": "Marine Le Pen",
+      "party": "Rassemblement national",
+      "programCount": 1,
+      "programIds": [
+        "program-marine-le-pen-2027"
+      ],
+      "nonExhaustiveProgramIds": [
+        "program-marine-le-pen-2027"
+      ],
+      "proposalCount": 6,
+      "coveredThemeCount": 6,
+      "coveredThemeIds": [
+        "economie",
+        "ecologie",
+        "securite",
+        "education",
+        "sante",
+        "retraites"
+      ],
+      "emptyThemeIds": [
+        "institutions",
+        "technologie"
+      ],
+      "emptyCellCount": 2,
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 5,
+        "past_program": 1
+      },
+      "historicalProposalCount": 1,
+      "secondaryOnlyProposalCount": 0,
+      "trackRecordCount": 1,
+      "qualifiedTrackRecordCount": 1,
+      "hasQualifiedPrecedent": true,
+      "qualifiedTrackRecordIds": [
+        "record-le-pen-retraites-2023"
+      ]
+    },
+    {
+      "candidateId": "jean-luc-melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "party": "La France insoumise",
+      "programCount": 1,
+      "programIds": [
+        "program-jean-luc-melenchon-2027"
+      ],
+      "nonExhaustiveProgramIds": [
+        "program-jean-luc-melenchon-2027"
+      ],
+      "proposalCount": 7,
+      "coveredThemeCount": 6,
+      "coveredThemeIds": [
+        "economie",
+        "ecologie",
+        "institutions",
+        "securite",
+        "education",
+        "retraites"
+      ],
+      "emptyThemeIds": [
+        "technologie",
+        "sante"
+      ],
+      "emptyCellCount": 2,
+      "attributionCounts": {
+        "candidate": 3,
+        "campaign": 2,
+        "party": 0,
+        "past_program": 2
+      },
+      "historicalProposalCount": 2,
+      "secondaryOnlyProposalCount": 1,
+      "trackRecordCount": 0,
+      "qualifiedTrackRecordCount": 0,
+      "hasQualifiedPrecedent": false,
+      "qualifiedTrackRecordIds": []
+    },
+    {
+      "candidateId": "edouard-philippe",
+      "name": "Édouard Philippe",
+      "party": "Horizons",
+      "programCount": 1,
+      "programIds": [
+        "program-edouard-philippe-2027"
+      ],
+      "nonExhaustiveProgramIds": [
+        "program-edouard-philippe-2027"
+      ],
+      "proposalCount": 11,
+      "coveredThemeCount": 8,
+      "coveredThemeIds": [
+        "economie",
+        "ecologie",
+        "institutions",
+        "securite",
+        "technologie",
+        "education",
+        "sante",
+        "retraites"
+      ],
+      "emptyThemeIds": [],
+      "emptyCellCount": 0,
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 11,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "trackRecordCount": 1,
+      "qualifiedTrackRecordCount": 1,
+      "hasQualifiedPrecedent": true,
+      "qualifiedTrackRecordIds": [
+        "record-philippe-retraites-2019"
+      ]
+    },
+    {
+      "candidateId": "raphael-glucksmann",
+      "name": "Raphaël Glucksmann",
+      "party": "Place publique",
+      "programCount": 1,
+      "programIds": [
+        "program-raphael-glucksmann-2027"
+      ],
+      "nonExhaustiveProgramIds": [
+        "program-raphael-glucksmann-2027"
+      ],
+      "proposalCount": 6,
+      "coveredThemeCount": 6,
+      "coveredThemeIds": [
+        "economie",
+        "ecologie",
+        "institutions",
+        "technologie",
+        "education",
+        "sante"
+      ],
+      "emptyThemeIds": [
+        "securite",
+        "retraites"
+      ],
+      "emptyCellCount": 2,
+      "attributionCounts": {
+        "candidate": 1,
+        "campaign": 0,
+        "party": 5,
+        "past_program": 0
+      },
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "trackRecordCount": 0,
+      "qualifiedTrackRecordCount": 0,
+      "hasQualifiedPrecedent": false,
+      "qualifiedTrackRecordIds": []
+    },
+    {
+      "candidateId": "gabriel-attal",
+      "name": "Gabriel Attal",
+      "party": "Renaissance",
+      "programCount": 1,
+      "programIds": [
+        "program-gabriel-attal-2027"
+      ],
+      "nonExhaustiveProgramIds": [
+        "program-gabriel-attal-2027"
+      ],
+      "proposalCount": 6,
+      "coveredThemeCount": 5,
+      "coveredThemeIds": [
+        "economie",
+        "ecologie",
+        "securite",
+        "technologie",
+        "education"
+      ],
+      "emptyThemeIds": [
+        "institutions",
+        "sante",
+        "retraites"
+      ],
+      "emptyCellCount": 3,
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 5,
+        "party": 1,
+        "past_program": 0
+      },
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "trackRecordCount": 0,
+      "qualifiedTrackRecordCount": 0,
+      "hasQualifiedPrecedent": false,
+      "qualifiedTrackRecordIds": []
+    },
+    {
+      "candidateId": "bruno-retailleau",
+      "name": "Bruno Retailleau",
+      "party": "Les Républicains",
+      "programCount": 1,
+      "programIds": [
+        "program-bruno-retailleau-2027"
+      ],
+      "nonExhaustiveProgramIds": [],
+      "proposalCount": 7,
+      "coveredThemeCount": 6,
+      "coveredThemeIds": [
+        "economie",
+        "ecologie",
+        "institutions",
+        "securite",
+        "technologie",
+        "sante"
+      ],
+      "emptyThemeIds": [
+        "education",
+        "retraites"
+      ],
+      "emptyCellCount": 2,
+      "attributionCounts": {
+        "candidate": 4,
+        "campaign": 1,
+        "party": 2,
+        "past_program": 0
+      },
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 1,
+      "trackRecordCount": 0,
+      "qualifiedTrackRecordCount": 0,
+      "hasQualifiedPrecedent": false,
+      "qualifiedTrackRecordIds": []
+    },
+    {
+      "candidateId": "francois-ruffin",
+      "name": "François Ruffin",
+      "party": "Indépendant",
+      "programCount": 1,
+      "programIds": [
+        "program-francois-ruffin-2027"
+      ],
+      "nonExhaustiveProgramIds": [
+        "program-francois-ruffin-2027"
+      ],
+      "proposalCount": 6,
+      "coveredThemeCount": 5,
+      "coveredThemeIds": [
+        "economie",
+        "ecologie",
+        "institutions",
+        "education",
+        "retraites"
+      ],
+      "emptyThemeIds": [
+        "securite",
+        "technologie",
+        "sante"
+      ],
+      "emptyCellCount": 3,
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 6,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "trackRecordCount": 1,
+      "qualifiedTrackRecordCount": 1,
+      "hasQualifiedPrecedent": true,
+      "qualifiedTrackRecordIds": [
+        "record-ruffin-vacances-2023"
+      ]
+    },
+    {
+      "candidateId": "marine-tondelier",
+      "name": "Marine Tondelier",
+      "party": "Les Écologistes",
+      "programCount": 1,
+      "programIds": [
+        "program-marine-tondelier-2027"
+      ],
+      "nonExhaustiveProgramIds": [
+        "program-marine-tondelier-2027"
+      ],
+      "proposalCount": 6,
+      "coveredThemeCount": 5,
+      "coveredThemeIds": [
+        "economie",
+        "ecologie",
+        "institutions",
+        "technologie",
+        "sante"
+      ],
+      "emptyThemeIds": [
+        "securite",
+        "education",
+        "retraites"
+      ],
+      "emptyCellCount": 3,
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 3,
+        "party": 3,
+        "past_program": 0
+      },
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "trackRecordCount": 0,
+      "qualifiedTrackRecordCount": 0,
+      "hasQualifiedPrecedent": false,
+      "qualifiedTrackRecordIds": []
+    },
+    {
+      "candidateId": "eric-zemmour",
+      "name": "Éric Zemmour",
+      "party": "Reconquête",
+      "programCount": 1,
+      "programIds": [
+        "program-eric-zemmour-2027"
+      ],
+      "nonExhaustiveProgramIds": [],
+      "proposalCount": 6,
+      "coveredThemeCount": 6,
+      "coveredThemeIds": [
+        "economie",
+        "ecologie",
+        "institutions",
+        "securite",
+        "education",
+        "sante"
+      ],
+      "emptyThemeIds": [
+        "technologie",
+        "retraites"
+      ],
+      "emptyCellCount": 2,
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 6
+      },
+      "historicalProposalCount": 6,
+      "secondaryOnlyProposalCount": 0,
+      "trackRecordCount": 0,
+      "qualifiedTrackRecordCount": 0,
+      "hasQualifiedPrecedent": false,
+      "qualifiedTrackRecordIds": []
+    },
+    {
+      "candidateId": "fabien-roussel",
+      "name": "Fabien Roussel",
+      "party": "Parti communiste français",
+      "programCount": 1,
+      "programIds": [
+        "program-fabien-roussel-2027"
+      ],
+      "nonExhaustiveProgramIds": [],
+      "proposalCount": 6,
+      "coveredThemeCount": 5,
+      "coveredThemeIds": [
+        "economie",
+        "ecologie",
+        "education",
+        "sante",
+        "retraites"
+      ],
+      "emptyThemeIds": [
+        "institutions",
+        "securite",
+        "technologie"
+      ],
+      "emptyCellCount": 3,
+      "attributionCounts": {
+        "candidate": 3,
+        "campaign": 0,
+        "party": 2,
+        "past_program": 1
+      },
+      "historicalProposalCount": 1,
+      "secondaryOnlyProposalCount": 0,
+      "trackRecordCount": 1,
+      "qualifiedTrackRecordCount": 1,
+      "hasQualifiedPrecedent": true,
+      "qualifiedTrackRecordIds": [
+        "record-roussel-energie-2022"
+      ]
+    }
+  ],
+  "themeCoverage": [
+    {
+      "themeId": "economie",
+      "label": "Économie, dette et pouvoir d’achat",
+      "proposalCount": 14,
+      "coveredCandidateCount": 10,
+      "coveredCandidateIds": [
+        "marine-le-pen",
+        "jean-luc-melenchon",
+        "edouard-philippe",
+        "raphael-glucksmann",
+        "gabriel-attal",
+        "bruno-retailleau",
+        "francois-ruffin",
+        "marine-tondelier",
+        "eric-zemmour",
+        "fabien-roussel"
+      ],
+      "emptyCandidateIds": [],
+      "attributionCounts": {
+        "candidate": 2,
+        "campaign": 6,
+        "party": 5,
+        "past_program": 1
+      },
+      "historicalProposalCount": 1,
+      "secondaryOnlyProposalCount": 1
+    },
+    {
+      "themeId": "ecologie",
+      "label": "Écologie, climat et énergie",
+      "proposalCount": 12,
+      "coveredCandidateCount": 10,
+      "coveredCandidateIds": [
+        "marine-le-pen",
+        "jean-luc-melenchon",
+        "edouard-philippe",
+        "raphael-glucksmann",
+        "gabriel-attal",
+        "bruno-retailleau",
+        "francois-ruffin",
+        "marine-tondelier",
+        "eric-zemmour",
+        "fabien-roussel"
+      ],
+      "emptyCandidateIds": [],
+      "attributionCounts": {
+        "candidate": 4,
+        "campaign": 5,
+        "party": 2,
+        "past_program": 1
+      },
+      "historicalProposalCount": 1,
+      "secondaryOnlyProposalCount": 0
+    },
+    {
+      "themeId": "institutions",
+      "label": "Institutions, démocratie et Europe",
+      "proposalCount": 8,
+      "coveredCandidateCount": 7,
+      "coveredCandidateIds": [
+        "jean-luc-melenchon",
+        "edouard-philippe",
+        "raphael-glucksmann",
+        "bruno-retailleau",
+        "francois-ruffin",
+        "marine-tondelier",
+        "eric-zemmour"
+      ],
+      "emptyCandidateIds": [
+        "marine-le-pen",
+        "gabriel-attal",
+        "fabien-roussel"
+      ],
+      "attributionCounts": {
+        "candidate": 2,
+        "campaign": 3,
+        "party": 2,
+        "past_program": 1
+      },
+      "historicalProposalCount": 1,
+      "secondaryOnlyProposalCount": 1
+    },
+    {
+      "themeId": "securite",
+      "label": "Immigration, sécurité et justice",
+      "proposalCount": 6,
+      "coveredCandidateCount": 6,
+      "coveredCandidateIds": [
+        "marine-le-pen",
+        "jean-luc-melenchon",
+        "edouard-philippe",
+        "gabriel-attal",
+        "bruno-retailleau",
+        "eric-zemmour"
+      ],
+      "emptyCandidateIds": [
+        "raphael-glucksmann",
+        "francois-ruffin",
+        "marine-tondelier",
+        "fabien-roussel"
+      ],
+      "attributionCounts": {
+        "candidate": 1,
+        "campaign": 2,
+        "party": 1,
+        "past_program": 2
+      },
+      "historicalProposalCount": 2,
+      "secondaryOnlyProposalCount": 0
+    },
+    {
+      "themeId": "technologie",
+      "label": "Technologie, IA et numérique",
+      "proposalCount": 5,
+      "coveredCandidateCount": 5,
+      "coveredCandidateIds": [
+        "edouard-philippe",
+        "raphael-glucksmann",
+        "gabriel-attal",
+        "bruno-retailleau",
+        "marine-tondelier"
+      ],
+      "emptyCandidateIds": [
+        "marine-le-pen",
+        "jean-luc-melenchon",
+        "francois-ruffin",
+        "eric-zemmour",
+        "fabien-roussel"
+      ],
+      "attributionCounts": {
+        "candidate": 1,
+        "campaign": 2,
+        "party": 2,
+        "past_program": 0
+      },
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0
+    },
+    {
+      "themeId": "education",
+      "label": "Éducation et recherche",
+      "proposalCount": 8,
+      "coveredCandidateCount": 8,
+      "coveredCandidateIds": [
+        "marine-le-pen",
+        "jean-luc-melenchon",
+        "edouard-philippe",
+        "raphael-glucksmann",
+        "gabriel-attal",
+        "francois-ruffin",
+        "eric-zemmour",
+        "fabien-roussel"
+      ],
+      "emptyCandidateIds": [
+        "bruno-retailleau",
+        "marine-tondelier"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 3,
+        "party": 2,
+        "past_program": 3
+      },
+      "historicalProposalCount": 3,
+      "secondaryOnlyProposalCount": 0
+    },
+    {
+      "themeId": "sante",
+      "label": "Santé et protection sociale",
+      "proposalCount": 9,
+      "coveredCandidateCount": 7,
+      "coveredCandidateIds": [
+        "marine-le-pen",
+        "edouard-philippe",
+        "raphael-glucksmann",
+        "bruno-retailleau",
+        "marine-tondelier",
+        "eric-zemmour",
+        "fabien-roussel"
+      ],
+      "emptyCandidateIds": [
+        "jean-luc-melenchon",
+        "gabriel-attal",
+        "francois-ruffin"
+      ],
+      "attributionCounts": {
+        "candidate": 1,
+        "campaign": 4,
+        "party": 3,
+        "past_program": 1
+      },
+      "historicalProposalCount": 1,
+      "secondaryOnlyProposalCount": 0
+    },
+    {
+      "themeId": "retraites",
+      "label": "Retraites et vieillissement",
+      "proposalCount": 5,
+      "coveredCandidateCount": 5,
+      "coveredCandidateIds": [
+        "marine-le-pen",
+        "jean-luc-melenchon",
+        "edouard-philippe",
+        "francois-ruffin",
+        "fabien-roussel"
+      ],
+      "emptyCandidateIds": [
+        "raphael-glucksmann",
+        "gabriel-attal",
+        "bruno-retailleau",
+        "marine-tondelier",
+        "eric-zemmour"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 3,
+        "party": 1,
+        "past_program": 1
+      },
+      "historicalProposalCount": 1,
+      "secondaryOnlyProposalCount": 0
+    }
+  ],
+  "coverageMatrix": [
+    {
+      "candidateId": "marine-le-pen",
+      "themeId": "economie",
+      "proposalIds": [
+        "proposal-le-pen-tva-energie-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 1,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "marine-le-pen",
+      "themeId": "ecologie",
+      "proposalIds": [
+        "proposal-le-pen-contre-budget-100-renov-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 1,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "marine-le-pen",
+      "themeId": "institutions",
+      "proposalIds": [],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 0,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": true
+    },
+    {
+      "candidateId": "marine-le-pen",
+      "themeId": "securite",
+      "proposalIds": [
+        "proposal-le-pen-rn-referendum-immigration-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 1,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "marine-le-pen",
+      "themeId": "technologie",
+      "proposalIds": [],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 0,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": true
+    },
+    {
+      "candidateId": "marine-le-pen",
+      "themeId": "education",
+      "proposalIds": [
+        "proposal-le-pen-programme-2022-uniforme-ecole"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 1
+      },
+      "historicalProposalIds": [
+        "proposal-le-pen-programme-2022-uniforme-ecole"
+      ],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 1,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "marine-le-pen",
+      "themeId": "sante",
+      "proposalIds": [
+        "proposal-le-pen-contre-budget-medicaments-unite-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 1,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "marine-le-pen",
+      "themeId": "retraites",
+      "proposalIds": [
+        "proposal-le-pen-contre-budget-retraites-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 1,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "jean-luc-melenchon",
+      "themeId": "economie",
+      "proposalIds": [
+        "proposal-carburant-001",
+        "proposal-melenchon-smic-1700-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 1,
+        "campaign": 1,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [
+        "proposal-carburant-001"
+      ],
+      "proposalCount": 2,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 1,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "jean-luc-melenchon",
+      "themeId": "ecologie",
+      "proposalIds": [
+        "proposal-melenchon-ecoregions-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 1,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "jean-luc-melenchon",
+      "themeId": "institutions",
+      "proposalIds": [
+        "proposal-melenchon-sixieme-republique-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 1,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "jean-luc-melenchon",
+      "themeId": "securite",
+      "proposalIds": [
+        "proposal-melenchon-cannabis-monopole-2025"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 1
+      },
+      "historicalProposalIds": [
+        "proposal-melenchon-cannabis-monopole-2025"
+      ],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 1,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "jean-luc-melenchon",
+      "themeId": "technologie",
+      "proposalIds": [],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 0,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": true
+    },
+    {
+      "candidateId": "jean-luc-melenchon",
+      "themeId": "education",
+      "proposalIds": [
+        "proposal-melenchon-parcoursup-2025"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 1
+      },
+      "historicalProposalIds": [
+        "proposal-melenchon-parcoursup-2025"
+      ],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 1,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "jean-luc-melenchon",
+      "themeId": "sante",
+      "proposalIds": [],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 0,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": true
+    },
+    {
+      "candidateId": "jean-luc-melenchon",
+      "themeId": "retraites",
+      "proposalIds": [
+        "proposal-melenchon-retraite-60-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 1,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "edouard-philippe",
+      "themeId": "economie",
+      "proposalIds": [
+        "proposal-philippe-pacte-fiscal-entreprises-2026",
+        "proposal-philippe-moratoire-normatif-fiscal-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 2,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 2,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "edouard-philippe",
+      "themeId": "ecologie",
+      "proposalIds": [
+        "proposal-philippe-territoires-souverainete-alimentaire-2026",
+        "proposal-philippe-datar-adaptation-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 2,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 2,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "edouard-philippe",
+      "themeId": "institutions",
+      "proposalIds": [
+        "proposal-philippe-regle-or-deficits-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 1,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "edouard-philippe",
+      "themeId": "securite",
+      "proposalIds": [
+        "proposal-philippe-etat-urgence-narco-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 1,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "edouard-philippe",
+      "themeId": "technologie",
+      "proposalIds": [
+        "proposal-philippe-ingenieurs-ia-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 1,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "edouard-philippe",
+      "themeId": "education",
+      "proposalIds": [
+        "proposal-philippe-soutien-scolaire-universel-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 1,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "edouard-philippe",
+      "themeId": "sante",
+      "proposalIds": [
+        "proposal-philippe-stabiliser-depenses-sante-2026",
+        "proposal-philippe-aide-familiale-unique-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 2,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 2,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "edouard-philippe",
+      "themeId": "retraites",
+      "proposalIds": [
+        "proposal-philippe-capitalisation-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 1,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "raphael-glucksmann",
+      "themeId": "economie",
+      "proposalIds": [
+        "proposal-glucksmann-smic-1600-2025"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 1,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "raphael-glucksmann",
+      "themeId": "ecologie",
+      "proposalIds": [
+        "proposal-glucksmann-plan-renouvelables-2025"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 1,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "raphael-glucksmann",
+      "themeId": "institutions",
+      "proposalIds": [
+        "proposal-glucksmann-fonds-defense-europeen-2025"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 1,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "raphael-glucksmann",
+      "themeId": "securite",
+      "proposalIds": [],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 0,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": true
+    },
+    {
+      "candidateId": "raphael-glucksmann",
+      "themeId": "technologie",
+      "proposalIds": [
+        "proposal-glucksmann-agence-numerique-ia-2025"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 1,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "raphael-glucksmann",
+      "themeId": "education",
+      "proposalIds": [
+        "proposal-glucksmann-salaires-enseignants-cinq-ans-2025"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 1,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "raphael-glucksmann",
+      "themeId": "sante",
+      "proposalIds": [
+        "proposal-glucksmann-demarchandiser-ehpad-creches-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 1,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "raphael-glucksmann",
+      "themeId": "retraites",
+      "proposalIds": [],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 0,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": true
+    },
+    {
+      "candidateId": "gabriel-attal",
+      "themeId": "economie",
+      "proposalIds": [
+        "proposal-attal-salaire-median-3000-2026",
+        "proposal-attal-livret-garde-enfant-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 1,
+        "party": 1,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 2,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "gabriel-attal",
+      "themeId": "ecologie",
+      "proposalIds": [
+        "proposal-attal-reduction-emissions-5-pourcent-2030"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 1,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "gabriel-attal",
+      "themeId": "institutions",
+      "proposalIds": [],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 0,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": true
+    },
+    {
+      "candidateId": "gabriel-attal",
+      "themeId": "securite",
+      "proposalIds": [
+        "proposal-attal-immigration-points-travail-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 1,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "gabriel-attal",
+      "themeId": "technologie",
+      "proposalIds": [
+        "proposal-attal-formation-ia-universelle-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 1,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "gabriel-attal",
+      "themeId": "education",
+      "proposalIds": [
+        "proposal-attal-classes-moins-20-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 1,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "gabriel-attal",
+      "themeId": "sante",
+      "proposalIds": [],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 0,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": true
+    },
+    {
+      "candidateId": "gabriel-attal",
+      "themeId": "retraites",
+      "proposalIds": [],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 0,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": true
+    },
+    {
+      "candidateId": "bruno-retailleau",
+      "themeId": "economie",
+      "proposalIds": [
+        "proposal-retailleau-zero-cotisation-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 1,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "bruno-retailleau",
+      "themeId": "ecologie",
+      "proposalIds": [
+        "proposal-retailleau-retenues-eau-interet-public-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 1,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "bruno-retailleau",
+      "themeId": "institutions",
+      "proposalIds": [
+        "proposal-ordre-republicain-001",
+        "proposal-retailleau-defense-100-milliards-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 1,
+        "campaign": 1,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [
+        "proposal-ordre-republicain-001"
+      ],
+      "proposalCount": 2,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 1,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "bruno-retailleau",
+      "themeId": "securite",
+      "proposalIds": [
+        "proposal-retailleau-cour-disciplinaire-magistrature-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 1,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "bruno-retailleau",
+      "themeId": "technologie",
+      "proposalIds": [
+        "proposal-retailleau-datacenters-souverains-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 1,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "bruno-retailleau",
+      "themeId": "education",
+      "proposalIds": [],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 0,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": true
+    },
+    {
+      "candidateId": "bruno-retailleau",
+      "themeId": "sante",
+      "proposalIds": [
+        "proposal-retailleau-revenu-familial-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 1,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "bruno-retailleau",
+      "themeId": "retraites",
+      "proposalIds": [],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 0,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": true
+    },
+    {
+      "candidateId": "francois-ruffin",
+      "themeId": "economie",
+      "proposalIds": [
+        "proposal-ruffin-ter-29-euros-2026",
+        "proposal-ruffin-indexation-salaires-inflation-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 2,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 2,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "francois-ruffin",
+      "themeId": "ecologie",
+      "proposalIds": [
+        "proposal-ruffin-renovation-15-milliards-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 1,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "francois-ruffin",
+      "themeId": "institutions",
+      "proposalIds": [
+        "proposal-ruffin-haute-autorite-probite-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 1,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "francois-ruffin",
+      "themeId": "securite",
+      "proposalIds": [],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 0,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": true
+    },
+    {
+      "candidateId": "francois-ruffin",
+      "themeId": "technologie",
+      "proposalIds": [],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 0,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": true
+    },
+    {
+      "candidateId": "francois-ruffin",
+      "themeId": "education",
+      "proposalIds": [
+        "proposal-ruffin-formations-reconstruction-ecologique-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 1,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "francois-ruffin",
+      "themeId": "sante",
+      "proposalIds": [],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 0,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": true
+    },
+    {
+      "candidateId": "francois-ruffin",
+      "themeId": "retraites",
+      "proposalIds": [
+        "proposal-ruffin-retraite-penibilite-trimestres-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 1,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "marine-tondelier",
+      "themeId": "economie",
+      "proposalIds": [
+        "proposal-tondelier-conge-climatique-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 1,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "marine-tondelier",
+      "themeId": "ecologie",
+      "proposalIds": [
+        "proposal-tondelier-fonds-adaptation-littoral-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 1,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "marine-tondelier",
+      "themeId": "institutions",
+      "proposalIds": [
+        "proposal-tondelier-petitions-vote-assemblee-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 1,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "marine-tondelier",
+      "themeId": "securite",
+      "proposalIds": [],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 0,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": true
+    },
+    {
+      "candidateId": "marine-tondelier",
+      "themeId": "technologie",
+      "proposalIds": [
+        "proposal-tondelier-marquage-contenus-ia-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 1,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "marine-tondelier",
+      "themeId": "education",
+      "proposalIds": [],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 0,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": true
+    },
+    {
+      "candidateId": "marine-tondelier",
+      "themeId": "sante",
+      "proposalIds": [
+        "proposal-tondelier-prescription-sociale-2026",
+        "proposal-tondelier-vaccination-hpv-80-2030"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 2,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 2,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "marine-tondelier",
+      "themeId": "retraites",
+      "proposalIds": [],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 0,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": true
+    },
+    {
+      "candidateId": "eric-zemmour",
+      "themeId": "economie",
+      "proposalIds": [
+        "proposal-zemmour-baisse-csg-salaires-2022"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 1
+      },
+      "historicalProposalIds": [
+        "proposal-zemmour-baisse-csg-salaires-2022"
+      ],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 1,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "eric-zemmour",
+      "themeId": "ecologie",
+      "proposalIds": [
+        "proposal-zemmour-epr2-parc-60-ans-2022"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 1
+      },
+      "historicalProposalIds": [
+        "proposal-zemmour-epr2-parc-60-ans-2022"
+      ],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 1,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "eric-zemmour",
+      "themeId": "institutions",
+      "proposalIds": [
+        "proposal-zemmour-referendum-immigration-securite-justice-2022"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 1
+      },
+      "historicalProposalIds": [
+        "proposal-zemmour-referendum-immigration-securite-justice-2022"
+      ],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 1,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "eric-zemmour",
+      "themeId": "securite",
+      "proposalIds": [
+        "proposal-zemmour-prestations-etrangers-2022"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 1
+      },
+      "historicalProposalIds": [
+        "proposal-zemmour-prestations-etrangers-2022"
+      ],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 1,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "eric-zemmour",
+      "themeId": "technologie",
+      "proposalIds": [],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 0,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": true
+    },
+    {
+      "candidateId": "eric-zemmour",
+      "themeId": "education",
+      "proposalIds": [
+        "proposal-zemmour-college-niveaux-quatrieme-2022"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 1
+      },
+      "historicalProposalIds": [
+        "proposal-zemmour-college-niveaux-quatrieme-2022"
+      ],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 1,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "eric-zemmour",
+      "themeId": "sante",
+      "proposalIds": [
+        "proposal-zemmour-hopital-formations-sante-2022"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 1
+      },
+      "historicalProposalIds": [
+        "proposal-zemmour-hopital-formations-sante-2022"
+      ],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 1,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "eric-zemmour",
+      "themeId": "retraites",
+      "proposalIds": [],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 0,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": true
+    },
+    {
+      "candidateId": "fabien-roussel",
+      "themeId": "economie",
+      "proposalIds": [
+        "proposal-roussel-nationalisation-sanction-total-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 1,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "fabien-roussel",
+      "themeId": "ecologie",
+      "proposalIds": [
+        "proposal-roussel-electricite-decarbonee-2026",
+        "proposal-roussel-sortie-energies-fossiles-quinze-ans-2026"
+      ],
+      "attributionCounts": {
+        "candidate": 2,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 2,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "fabien-roussel",
+      "themeId": "institutions",
+      "proposalIds": [],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 0,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": true
+    },
+    {
+      "candidateId": "fabien-roussel",
+      "themeId": "securite",
+      "proposalIds": [],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 0,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": true
+    },
+    {
+      "candidateId": "fabien-roussel",
+      "themeId": "technologie",
+      "proposalIds": [],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 0,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": true
+    },
+    {
+      "candidateId": "fabien-roussel",
+      "themeId": "education",
+      "proposalIds": [
+        "proposal-roussel-abrogation-parcoursup-2025"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 1,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "fabien-roussel",
+      "themeId": "sante",
+      "proposalIds": [
+        "proposal-roussel-soins-100-securite-sociale-2025"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 1,
+        "past_program": 0
+      },
+      "historicalProposalIds": [],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 0,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    },
+    {
+      "candidateId": "fabien-roussel",
+      "themeId": "retraites",
+      "proposalIds": [
+        "proposal-roussel-retraite-60-ans-2022"
+      ],
+      "attributionCounts": {
+        "candidate": 0,
+        "campaign": 0,
+        "party": 0,
+        "past_program": 1
+      },
+      "historicalProposalIds": [
+        "proposal-roussel-retraite-60-ans-2022"
+      ],
+      "secondaryOnlyProposalIds": [],
+      "proposalCount": 1,
+      "historicalProposalCount": 1,
+      "secondaryOnlyProposalCount": 0,
+      "isEmpty": false
+    }
+  ],
+  "emptyCells": [
+    {
+      "candidateId": "marine-le-pen",
+      "candidateName": "Marine Le Pen",
+      "themeId": "institutions",
+      "themeLabel": "Institutions, démocratie et Europe"
+    },
+    {
+      "candidateId": "marine-le-pen",
+      "candidateName": "Marine Le Pen",
+      "themeId": "technologie",
+      "themeLabel": "Technologie, IA et numérique"
+    },
+    {
+      "candidateId": "jean-luc-melenchon",
+      "candidateName": "Jean-Luc Mélenchon",
+      "themeId": "technologie",
+      "themeLabel": "Technologie, IA et numérique"
+    },
+    {
+      "candidateId": "jean-luc-melenchon",
+      "candidateName": "Jean-Luc Mélenchon",
+      "themeId": "sante",
+      "themeLabel": "Santé et protection sociale"
+    },
+    {
+      "candidateId": "raphael-glucksmann",
+      "candidateName": "Raphaël Glucksmann",
+      "themeId": "securite",
+      "themeLabel": "Immigration, sécurité et justice"
+    },
+    {
+      "candidateId": "raphael-glucksmann",
+      "candidateName": "Raphaël Glucksmann",
+      "themeId": "retraites",
+      "themeLabel": "Retraites et vieillissement"
+    },
+    {
+      "candidateId": "gabriel-attal",
+      "candidateName": "Gabriel Attal",
+      "themeId": "institutions",
+      "themeLabel": "Institutions, démocratie et Europe"
+    },
+    {
+      "candidateId": "gabriel-attal",
+      "candidateName": "Gabriel Attal",
+      "themeId": "sante",
+      "themeLabel": "Santé et protection sociale"
+    },
+    {
+      "candidateId": "gabriel-attal",
+      "candidateName": "Gabriel Attal",
+      "themeId": "retraites",
+      "themeLabel": "Retraites et vieillissement"
+    },
+    {
+      "candidateId": "bruno-retailleau",
+      "candidateName": "Bruno Retailleau",
+      "themeId": "education",
+      "themeLabel": "Éducation et recherche"
+    },
+    {
+      "candidateId": "bruno-retailleau",
+      "candidateName": "Bruno Retailleau",
+      "themeId": "retraites",
+      "themeLabel": "Retraites et vieillissement"
+    },
+    {
+      "candidateId": "francois-ruffin",
+      "candidateName": "François Ruffin",
+      "themeId": "securite",
+      "themeLabel": "Immigration, sécurité et justice"
+    },
+    {
+      "candidateId": "francois-ruffin",
+      "candidateName": "François Ruffin",
+      "themeId": "technologie",
+      "themeLabel": "Technologie, IA et numérique"
+    },
+    {
+      "candidateId": "francois-ruffin",
+      "candidateName": "François Ruffin",
+      "themeId": "sante",
+      "themeLabel": "Santé et protection sociale"
+    },
+    {
+      "candidateId": "marine-tondelier",
+      "candidateName": "Marine Tondelier",
+      "themeId": "securite",
+      "themeLabel": "Immigration, sécurité et justice"
+    },
+    {
+      "candidateId": "marine-tondelier",
+      "candidateName": "Marine Tondelier",
+      "themeId": "education",
+      "themeLabel": "Éducation et recherche"
+    },
+    {
+      "candidateId": "marine-tondelier",
+      "candidateName": "Marine Tondelier",
+      "themeId": "retraites",
+      "themeLabel": "Retraites et vieillissement"
+    },
+    {
+      "candidateId": "eric-zemmour",
+      "candidateName": "Éric Zemmour",
+      "themeId": "technologie",
+      "themeLabel": "Technologie, IA et numérique"
+    },
+    {
+      "candidateId": "eric-zemmour",
+      "candidateName": "Éric Zemmour",
+      "themeId": "retraites",
+      "themeLabel": "Retraites et vieillissement"
+    },
+    {
+      "candidateId": "fabien-roussel",
+      "candidateName": "Fabien Roussel",
+      "themeId": "institutions",
+      "themeLabel": "Institutions, démocratie et Europe"
+    },
+    {
+      "candidateId": "fabien-roussel",
+      "candidateName": "Fabien Roussel",
+      "themeId": "securite",
+      "themeLabel": "Immigration, sécurité et justice"
+    },
+    {
+      "candidateId": "fabien-roussel",
+      "candidateName": "Fabien Roussel",
+      "themeId": "technologie",
+      "themeLabel": "Technologie, IA et numérique"
+    }
+  ],
+  "programCoverage": [
+    {
+      "programId": "program-marine-le-pen-2027",
+      "candidateId": "marine-le-pen",
+      "candidateName": "Marine Le Pen",
+      "title": "Site officiel de campagne — présidentielle 2027",
+      "status": "orientations_a_qualifier",
+      "sourceKind": "officielle",
+      "exhaustiveness": "non_exhaustive",
+      "nonExhaustive": true,
+      "exhaustivenessReason": "Axes repérés, sans programme complet qualifié.",
+      "candidateCorpusProposalCount": 6,
+      "candidateCorpusCoveredThemeIds": [
+        "economie",
+        "ecologie",
+        "securite",
+        "education",
+        "sante",
+        "retraites"
+      ],
+      "candidateCorpusUncoveredThemeIds": [
+        "institutions",
+        "technologie"
+      ],
+      "note": "Page officielle repérée ; programme détaillé à qualifier séparément."
+    },
+    {
+      "programId": "program-jean-luc-melenchon-2027",
+      "candidateId": "jean-luc-melenchon",
+      "candidateName": "Jean-Luc Mélenchon",
+      "title": "L'Avenir en commun — édition 2025",
+      "status": "socle_programmatique_2027",
+      "sourceKind": "officielle",
+      "exhaustiveness": "non_exhaustive",
+      "nonExhaustive": true,
+      "exhaustivenessReason": "Socle repris pour 2027, qui ne vaut pas programme final exhaustif.",
+      "candidateCorpusProposalCount": 7,
+      "candidateCorpusCoveredThemeIds": [
+        "economie",
+        "ecologie",
+        "institutions",
+        "securite",
+        "education",
+        "retraites"
+      ],
+      "candidateCorpusUncoveredThemeIds": [
+        "technologie",
+        "sante"
+      ],
+      "note": "Socle programmatique officiel réédité en 2025 et mobilisé pour 2027 ; chaque mesure reste datée et qualifiée séparément."
+    },
+    {
+      "programId": "program-edouard-philippe-2027",
+      "candidateId": "edouard-philippe",
+      "candidateName": "Édouard Philippe",
+      "title": "Les priorités d'Édouard Philippe",
+      "status": "orientations_2027",
+      "sourceKind": "officielle",
+      "exhaustiveness": "non_exhaustive",
+      "nonExhaustive": true,
+      "exhaustivenessReason": "Priorités de campagne, sans programme complet.",
+      "candidateCorpusProposalCount": 11,
+      "candidateCorpusCoveredThemeIds": [
+        "economie",
+        "ecologie",
+        "institutions",
+        "securite",
+        "technologie",
+        "education",
+        "sante",
+        "retraites"
+      ],
+      "candidateCorpusUncoveredThemeIds": [],
+      "note": "Quatre axes de campagne affichés ; les pages détaillées doivent être extraites et versionnées."
+    },
+    {
+      "programId": "program-raphael-glucksmann-2027",
+      "candidateId": "raphael-glucksmann",
+      "candidateName": "Raphaël Glucksmann",
+      "title": "Le programme — Raphaël Glucksmann 2027",
+      "status": "programme_progressif_2027",
+      "sourceKind": "officielle",
+      "exhaustiveness": "non_exhaustive",
+      "nonExhaustive": true,
+      "exhaustivenessReason": "Programme annoncé comme publié par étapes.",
+      "candidateCorpusProposalCount": 6,
+      "candidateCorpusCoveredThemeIds": [
+        "economie",
+        "ecologie",
+        "institutions",
+        "technologie",
+        "education",
+        "sante"
+      ],
+      "candidateCorpusUncoveredThemeIds": [
+        "securite",
+        "retraites"
+      ],
+      "note": "Programme annoncé comme publié progressivement ; chaque mesure doit conserver sa date de version."
+    },
+    {
+      "programId": "program-gabriel-attal-2027",
+      "candidateId": "gabriel-attal",
+      "candidateName": "Gabriel Attal",
+      "title": "Programme — Attal Président",
+      "status": "programme_progressif_2027",
+      "sourceKind": "campagne",
+      "exhaustiveness": "non_exhaustive",
+      "nonExhaustive": true,
+      "exhaustivenessReason": "Programme annoncé comme publié par étapes.",
+      "candidateCorpusProposalCount": 6,
+      "candidateCorpusCoveredThemeIds": [
+        "economie",
+        "ecologie",
+        "securite",
+        "technologie",
+        "education"
+      ],
+      "candidateCorpusUncoveredThemeIds": [
+        "institutions",
+        "sante",
+        "retraites"
+      ],
+      "note": "Programme thématique de campagne publié progressivement ; les pages sont enregistrées comme sources distinctes et datées."
+    },
+    {
+      "programId": "program-bruno-retailleau-2027",
+      "candidateId": "bruno-retailleau",
+      "candidateName": "Bruno Retailleau",
+      "title": "Nos propositions pour la France — Travail gagnant",
+      "status": "document_programmatique_2027",
+      "sourceKind": "officielle",
+      "exhaustiveness": "unknown",
+      "nonExhaustive": false,
+      "exhaustivenessReason": "Le registre ne contient pas de champ attestant l'exhaustivité de ce document.",
+      "candidateCorpusProposalCount": 7,
+      "candidateCorpusCoveredThemeIds": [
+        "economie",
+        "ecologie",
+        "institutions",
+        "securite",
+        "technologie",
+        "sante"
+      ],
+      "candidateCorpusUncoveredThemeIds": [
+        "education",
+        "retraites"
+      ],
+      "note": "Document officiel du parti ; extraction et rattachement aux huit thèmes à effectuer."
+    },
+    {
+      "programId": "program-francois-ruffin-2027",
+      "candidateId": "francois-ruffin",
+      "candidateName": "François Ruffin",
+      "title": "Cahiers de campagne — Nous Président",
+      "status": "programme_partiel_2027",
+      "sourceKind": "campagne",
+      "exhaustiveness": "non_exhaustive",
+      "nonExhaustive": true,
+      "exhaustivenessReason": "Cahiers ou documents de campagne explicitement partiels.",
+      "candidateCorpusProposalCount": 6,
+      "candidateCorpusCoveredThemeIds": [
+        "economie",
+        "ecologie",
+        "institutions",
+        "education",
+        "retraites"
+      ],
+      "candidateCorpusUncoveredThemeIds": [
+        "securite",
+        "technologie",
+        "sante"
+      ],
+      "note": "Quatre cahiers de campagne officiels sont publiés à ce stade ; couverture partielle et évolutive du programme 2027."
+    },
+    {
+      "programId": "program-marine-tondelier-2027",
+      "candidateId": "marine-tondelier",
+      "candidateName": "Marine Tondelier",
+      "title": "Programme écologiste 2027 — 557 mesures",
+      "status": "programme_collectif_2027",
+      "sourceKind": "formation_politique",
+      "exhaustiveness": "non_exhaustive",
+      "nonExhaustive": true,
+      "exhaustivenessReason": "Programme collectif : il ne constitue pas une preuve d'engagement personnel exhaustif.",
+      "candidateCorpusProposalCount": 6,
+      "candidateCorpusCoveredThemeIds": [
+        "economie",
+        "ecologie",
+        "institutions",
+        "technologie",
+        "sante"
+      ],
+      "candidateCorpusUncoveredThemeIds": [
+        "securite",
+        "education",
+        "retraites"
+      ],
+      "note": "Programme officiel collectif des Écologistes ; rattachement à Marine Tondelier explicitement qualifié comme programme de formation et non comme engagement personnel."
+    },
+    {
+      "programId": "program-eric-zemmour-2027",
+      "candidateId": "eric-zemmour",
+      "candidateName": "Éric Zemmour",
+      "title": "Le programme d'Éric Zemmour",
+      "status": "programme_anterieur_a_requalifier",
+      "sourceKind": "officielle",
+      "exhaustiveness": "unknown",
+      "nonExhaustive": false,
+      "exhaustivenessReason": "Millésime ou applicabilité à 2027 encore à requalifier.",
+      "candidateCorpusProposalCount": 6,
+      "candidateCorpusCoveredThemeIds": [
+        "economie",
+        "ecologie",
+        "institutions",
+        "securite",
+        "education",
+        "sante"
+      ],
+      "candidateCorpusUncoveredThemeIds": [
+        "technologie",
+        "retraites"
+      ],
+      "note": "Programme officiel accessible ; millésime et applicabilité à 2027 à qualifier avant analyse."
+    },
+    {
+      "programId": "program-fabien-roussel-2027",
+      "candidateId": "fabien-roussel",
+      "candidateName": "Fabien Roussel",
+      "title": "Programme de La France des jours heureux",
+      "status": "document_programmatique_a_requalifier",
+      "sourceKind": "officielle",
+      "exhaustiveness": "unknown",
+      "nonExhaustive": false,
+      "exhaustivenessReason": "Document repéré, mais statut présidentiel 2027 encore à vérifier.",
+      "candidateCorpusProposalCount": 6,
+      "candidateCorpusCoveredThemeIds": [
+        "economie",
+        "ecologie",
+        "education",
+        "sante",
+        "retraites"
+      ],
+      "candidateCorpusUncoveredThemeIds": [
+        "institutions",
+        "securite",
+        "technologie"
+      ],
+      "note": "Document officiel du PCF ; version et statut présidentiel 2027 à vérifier avant publication."
+    }
+  ],
+  "flags": {
+    "emptyCells": [
+      {
+        "candidateId": "marine-le-pen",
+        "candidateName": "Marine Le Pen",
+        "themeId": "institutions",
+        "themeLabel": "Institutions, démocratie et Europe"
+      },
+      {
+        "candidateId": "marine-le-pen",
+        "candidateName": "Marine Le Pen",
+        "themeId": "technologie",
+        "themeLabel": "Technologie, IA et numérique"
+      },
+      {
+        "candidateId": "jean-luc-melenchon",
+        "candidateName": "Jean-Luc Mélenchon",
+        "themeId": "technologie",
+        "themeLabel": "Technologie, IA et numérique"
+      },
+      {
+        "candidateId": "jean-luc-melenchon",
+        "candidateName": "Jean-Luc Mélenchon",
+        "themeId": "sante",
+        "themeLabel": "Santé et protection sociale"
+      },
+      {
+        "candidateId": "raphael-glucksmann",
+        "candidateName": "Raphaël Glucksmann",
+        "themeId": "securite",
+        "themeLabel": "Immigration, sécurité et justice"
+      },
+      {
+        "candidateId": "raphael-glucksmann",
+        "candidateName": "Raphaël Glucksmann",
+        "themeId": "retraites",
+        "themeLabel": "Retraites et vieillissement"
+      },
+      {
+        "candidateId": "gabriel-attal",
+        "candidateName": "Gabriel Attal",
+        "themeId": "institutions",
+        "themeLabel": "Institutions, démocratie et Europe"
+      },
+      {
+        "candidateId": "gabriel-attal",
+        "candidateName": "Gabriel Attal",
+        "themeId": "sante",
+        "themeLabel": "Santé et protection sociale"
+      },
+      {
+        "candidateId": "gabriel-attal",
+        "candidateName": "Gabriel Attal",
+        "themeId": "retraites",
+        "themeLabel": "Retraites et vieillissement"
+      },
+      {
+        "candidateId": "bruno-retailleau",
+        "candidateName": "Bruno Retailleau",
+        "themeId": "education",
+        "themeLabel": "Éducation et recherche"
+      },
+      {
+        "candidateId": "bruno-retailleau",
+        "candidateName": "Bruno Retailleau",
+        "themeId": "retraites",
+        "themeLabel": "Retraites et vieillissement"
+      },
+      {
+        "candidateId": "francois-ruffin",
+        "candidateName": "François Ruffin",
+        "themeId": "securite",
+        "themeLabel": "Immigration, sécurité et justice"
+      },
+      {
+        "candidateId": "francois-ruffin",
+        "candidateName": "François Ruffin",
+        "themeId": "technologie",
+        "themeLabel": "Technologie, IA et numérique"
+      },
+      {
+        "candidateId": "francois-ruffin",
+        "candidateName": "François Ruffin",
+        "themeId": "sante",
+        "themeLabel": "Santé et protection sociale"
+      },
+      {
+        "candidateId": "marine-tondelier",
+        "candidateName": "Marine Tondelier",
+        "themeId": "securite",
+        "themeLabel": "Immigration, sécurité et justice"
+      },
+      {
+        "candidateId": "marine-tondelier",
+        "candidateName": "Marine Tondelier",
+        "themeId": "education",
+        "themeLabel": "Éducation et recherche"
+      },
+      {
+        "candidateId": "marine-tondelier",
+        "candidateName": "Marine Tondelier",
+        "themeId": "retraites",
+        "themeLabel": "Retraites et vieillissement"
+      },
+      {
+        "candidateId": "eric-zemmour",
+        "candidateName": "Éric Zemmour",
+        "themeId": "technologie",
+        "themeLabel": "Technologie, IA et numérique"
+      },
+      {
+        "candidateId": "eric-zemmour",
+        "candidateName": "Éric Zemmour",
+        "themeId": "retraites",
+        "themeLabel": "Retraites et vieillissement"
+      },
+      {
+        "candidateId": "fabien-roussel",
+        "candidateName": "Fabien Roussel",
+        "themeId": "institutions",
+        "themeLabel": "Institutions, démocratie et Europe"
+      },
+      {
+        "candidateId": "fabien-roussel",
+        "candidateName": "Fabien Roussel",
+        "themeId": "securite",
+        "themeLabel": "Immigration, sécurité et justice"
+      },
+      {
+        "candidateId": "fabien-roussel",
+        "candidateName": "Fabien Roussel",
+        "themeId": "technologie",
+        "themeLabel": "Technologie, IA et numérique"
+      }
+    ],
+    "nonExhaustivePrograms": [
+      {
+        "programId": "program-marine-le-pen-2027",
+        "candidateId": "marine-le-pen",
+        "candidateName": "Marine Le Pen",
+        "title": "Site officiel de campagne — présidentielle 2027",
+        "status": "orientations_a_qualifier",
+        "sourceKind": "officielle",
+        "exhaustiveness": "non_exhaustive",
+        "nonExhaustive": true,
+        "exhaustivenessReason": "Axes repérés, sans programme complet qualifié.",
+        "candidateCorpusProposalCount": 6,
+        "candidateCorpusCoveredThemeIds": [
+          "economie",
+          "ecologie",
+          "securite",
+          "education",
+          "sante",
+          "retraites"
+        ],
+        "candidateCorpusUncoveredThemeIds": [
+          "institutions",
+          "technologie"
+        ],
+        "note": "Page officielle repérée ; programme détaillé à qualifier séparément."
+      },
+      {
+        "programId": "program-jean-luc-melenchon-2027",
+        "candidateId": "jean-luc-melenchon",
+        "candidateName": "Jean-Luc Mélenchon",
+        "title": "L'Avenir en commun — édition 2025",
+        "status": "socle_programmatique_2027",
+        "sourceKind": "officielle",
+        "exhaustiveness": "non_exhaustive",
+        "nonExhaustive": true,
+        "exhaustivenessReason": "Socle repris pour 2027, qui ne vaut pas programme final exhaustif.",
+        "candidateCorpusProposalCount": 7,
+        "candidateCorpusCoveredThemeIds": [
+          "economie",
+          "ecologie",
+          "institutions",
+          "securite",
+          "education",
+          "retraites"
+        ],
+        "candidateCorpusUncoveredThemeIds": [
+          "technologie",
+          "sante"
+        ],
+        "note": "Socle programmatique officiel réédité en 2025 et mobilisé pour 2027 ; chaque mesure reste datée et qualifiée séparément."
+      },
+      {
+        "programId": "program-edouard-philippe-2027",
+        "candidateId": "edouard-philippe",
+        "candidateName": "Édouard Philippe",
+        "title": "Les priorités d'Édouard Philippe",
+        "status": "orientations_2027",
+        "sourceKind": "officielle",
+        "exhaustiveness": "non_exhaustive",
+        "nonExhaustive": true,
+        "exhaustivenessReason": "Priorités de campagne, sans programme complet.",
+        "candidateCorpusProposalCount": 11,
+        "candidateCorpusCoveredThemeIds": [
+          "economie",
+          "ecologie",
+          "institutions",
+          "securite",
+          "technologie",
+          "education",
+          "sante",
+          "retraites"
+        ],
+        "candidateCorpusUncoveredThemeIds": [],
+        "note": "Quatre axes de campagne affichés ; les pages détaillées doivent être extraites et versionnées."
+      },
+      {
+        "programId": "program-raphael-glucksmann-2027",
+        "candidateId": "raphael-glucksmann",
+        "candidateName": "Raphaël Glucksmann",
+        "title": "Le programme — Raphaël Glucksmann 2027",
+        "status": "programme_progressif_2027",
+        "sourceKind": "officielle",
+        "exhaustiveness": "non_exhaustive",
+        "nonExhaustive": true,
+        "exhaustivenessReason": "Programme annoncé comme publié par étapes.",
+        "candidateCorpusProposalCount": 6,
+        "candidateCorpusCoveredThemeIds": [
+          "economie",
+          "ecologie",
+          "institutions",
+          "technologie",
+          "education",
+          "sante"
+        ],
+        "candidateCorpusUncoveredThemeIds": [
+          "securite",
+          "retraites"
+        ],
+        "note": "Programme annoncé comme publié progressivement ; chaque mesure doit conserver sa date de version."
+      },
+      {
+        "programId": "program-gabriel-attal-2027",
+        "candidateId": "gabriel-attal",
+        "candidateName": "Gabriel Attal",
+        "title": "Programme — Attal Président",
+        "status": "programme_progressif_2027",
+        "sourceKind": "campagne",
+        "exhaustiveness": "non_exhaustive",
+        "nonExhaustive": true,
+        "exhaustivenessReason": "Programme annoncé comme publié par étapes.",
+        "candidateCorpusProposalCount": 6,
+        "candidateCorpusCoveredThemeIds": [
+          "economie",
+          "ecologie",
+          "securite",
+          "technologie",
+          "education"
+        ],
+        "candidateCorpusUncoveredThemeIds": [
+          "institutions",
+          "sante",
+          "retraites"
+        ],
+        "note": "Programme thématique de campagne publié progressivement ; les pages sont enregistrées comme sources distinctes et datées."
+      },
+      {
+        "programId": "program-francois-ruffin-2027",
+        "candidateId": "francois-ruffin",
+        "candidateName": "François Ruffin",
+        "title": "Cahiers de campagne — Nous Président",
+        "status": "programme_partiel_2027",
+        "sourceKind": "campagne",
+        "exhaustiveness": "non_exhaustive",
+        "nonExhaustive": true,
+        "exhaustivenessReason": "Cahiers ou documents de campagne explicitement partiels.",
+        "candidateCorpusProposalCount": 6,
+        "candidateCorpusCoveredThemeIds": [
+          "economie",
+          "ecologie",
+          "institutions",
+          "education",
+          "retraites"
+        ],
+        "candidateCorpusUncoveredThemeIds": [
+          "securite",
+          "technologie",
+          "sante"
+        ],
+        "note": "Quatre cahiers de campagne officiels sont publiés à ce stade ; couverture partielle et évolutive du programme 2027."
+      },
+      {
+        "programId": "program-marine-tondelier-2027",
+        "candidateId": "marine-tondelier",
+        "candidateName": "Marine Tondelier",
+        "title": "Programme écologiste 2027 — 557 mesures",
+        "status": "programme_collectif_2027",
+        "sourceKind": "formation_politique",
+        "exhaustiveness": "non_exhaustive",
+        "nonExhaustive": true,
+        "exhaustivenessReason": "Programme collectif : il ne constitue pas une preuve d'engagement personnel exhaustif.",
+        "candidateCorpusProposalCount": 6,
+        "candidateCorpusCoveredThemeIds": [
+          "economie",
+          "ecologie",
+          "institutions",
+          "technologie",
+          "sante"
+        ],
+        "candidateCorpusUncoveredThemeIds": [
+          "securite",
+          "education",
+          "retraites"
+        ],
+        "note": "Programme officiel collectif des Écologistes ; rattachement à Marine Tondelier explicitement qualifié comme programme de formation et non comme engagement personnel."
+      }
+    ],
+    "historicalProposals": [
+      {
+        "proposalId": "proposal-zemmour-prestations-etrangers-2022",
+        "candidateId": "eric-zemmour",
+        "candidateName": "Éric Zemmour",
+        "themeId": "securite",
+        "themeLabel": "Immigration, sécurité et justice",
+        "title": "Réserver les prestations sociales non contributives aux Français et ressortissants de l'Union européenne",
+        "publishedAt": "2022-03-25",
+        "sourceIds": [
+          "source-zemmour-programme-chiffrage-2022"
+        ]
+      },
+      {
+        "proposalId": "proposal-le-pen-programme-2022-uniforme-ecole",
+        "candidateId": "marine-le-pen",
+        "candidateName": "Marine Le Pen",
+        "themeId": "education",
+        "themeLabel": "Éducation et recherche",
+        "title": "Instaurer un uniforme au primaire et au collège",
+        "publishedAt": "2026-09-16",
+        "sourceIds": [
+          "source-le-pen-22-mesures-2022-education"
+        ]
+      },
+      {
+        "proposalId": "proposal-melenchon-parcoursup-2025",
+        "candidateId": "jean-luc-melenchon",
+        "candidateName": "Jean-Luc Mélenchon",
+        "themeId": "education",
+        "themeLabel": "Éducation et recherche",
+        "title": "Démanteler Parcoursup et garantir l'accès sans sélection à la formation choisie",
+        "publishedAt": "2026-09-16",
+        "sourceIds": [
+          "source-lfi-avenir-en-commun-2025-revision",
+          "source-melenchon2027-programme-actualisation-2026"
+        ]
+      },
+      {
+        "proposalId": "proposal-melenchon-cannabis-monopole-2025",
+        "candidateId": "jean-luc-melenchon",
+        "candidateName": "Jean-Luc Mélenchon",
+        "themeId": "securite",
+        "themeLabel": "Immigration, sécurité et justice",
+        "title": "Légaliser et encadrer le cannabis par un monopole d'État",
+        "publishedAt": "2026-09-16",
+        "sourceIds": [
+          "source-lfi-avenir-en-commun-2025-revision",
+          "source-melenchon2027-programme-actualisation-2026"
+        ]
+      },
+      {
+        "proposalId": "proposal-zemmour-referendum-immigration-securite-justice-2022",
+        "candidateId": "eric-zemmour",
+        "candidateName": "Éric Zemmour",
+        "themeId": "institutions",
+        "themeLabel": "Institutions, démocratie et Europe",
+        "title": "Organiser un référendum sur l'immigration, la sécurité et la justice",
+        "publishedAt": "2022-03-25",
+        "sourceIds": [
+          "source-zemmour-programme-chiffrage-2022"
+        ]
+      },
+      {
+        "proposalId": "proposal-zemmour-college-niveaux-quatrieme-2022",
+        "candidateId": "eric-zemmour",
+        "candidateName": "Éric Zemmour",
+        "themeId": "education",
+        "themeLabel": "Éducation et recherche",
+        "title": "Mettre fin au collège unique et proposer une filière préprofessionnelle dès la quatrième",
+        "publishedAt": "2022-03-25",
+        "sourceIds": [
+          "source-zemmour-programme-chiffrage-2022"
+        ]
+      },
+      {
+        "proposalId": "proposal-zemmour-baisse-csg-salaires-2022",
+        "candidateId": "eric-zemmour",
+        "candidateName": "Éric Zemmour",
+        "themeId": "economie",
+        "themeLabel": "Économie, dette et pouvoir d’achat",
+        "title": "Baisser dégressivement la CSG sur les salaires compris entre le SMIC et 2 000 euros",
+        "publishedAt": "2022-03-25",
+        "sourceIds": [
+          "source-zemmour-programme-chiffrage-2022"
+        ]
+      },
+      {
+        "proposalId": "proposal-zemmour-epr2-parc-60-ans-2022",
+        "candidateId": "eric-zemmour",
+        "candidateName": "Éric Zemmour",
+        "themeId": "ecologie",
+        "themeLabel": "Écologie, climat et énergie",
+        "title": "Construire au moins 14 EPR2 d'ici 2050 et prolonger le parc nucléaire à au moins 60 ans",
+        "publishedAt": "2022-03-25",
+        "sourceIds": [
+          "source-zemmour-programme-chiffrage-2022"
+        ]
+      },
+      {
+        "proposalId": "proposal-zemmour-hopital-formations-sante-2022",
+        "candidateId": "eric-zemmour",
+        "candidateName": "Éric Zemmour",
+        "themeId": "sante",
+        "themeLabel": "Santé et protection sociale",
+        "title": "Recruter 40 000 personnels hospitaliers et doubler en cinq ans les capacités de formation en santé",
+        "publishedAt": "2022-03-25",
+        "sourceIds": [
+          "source-zemmour-programme-chiffrage-2022"
+        ]
+      },
+      {
+        "proposalId": "proposal-roussel-retraite-60-ans-2022",
+        "candidateId": "fabien-roussel",
+        "candidateName": "Fabien Roussel",
+        "themeId": "retraites",
+        "themeLabel": "Retraites et vieillissement",
+        "title": "Rétablir par la loi la retraite à 60 ans à taux plein",
+        "publishedAt": "2026-09-16",
+        "sourceIds": [
+          "source-roussel-programme-jours-heureux-retraite-2022"
+        ]
+      }
+    ],
+    "secondaryOnlyProposals": [
+      {
+        "proposalId": "proposal-carburant-001",
+        "candidateId": "jean-luc-melenchon",
+        "candidateName": "Jean-Luc Mélenchon",
+        "themeId": "economie",
+        "themeLabel": "Économie, dette et pouvoir d’achat",
+        "title": "Bloquer les marges des raffineurs pour faire baisser les prix à la pompe",
+        "sourceIds": [
+          "source-bfmtv-carburant-melenchon-20260915"
+        ]
+      },
+      {
+        "proposalId": "proposal-ordre-republicain-001",
+        "candidateId": "bruno-retailleau",
+        "candidateName": "Bruno Retailleau",
+        "themeId": "institutions",
+        "themeLabel": "Institutions, démocratie et Europe",
+        "title": "Réviser la Constitution pour y inscrire une charte de l'ordre républicain",
+        "sourceIds": [
+          "source-bfmtv-ordre-republicain-retailleau-20260915"
+        ]
+      }
+    ],
+    "candidatesWithoutQualifiedPrecedent": [
+      {
+        "candidateId": "jean-luc-melenchon",
+        "name": "Jean-Luc Mélenchon",
+        "proposalCount": 7,
+        "trackRecordCount": 0
+      },
+      {
+        "candidateId": "raphael-glucksmann",
+        "name": "Raphaël Glucksmann",
+        "proposalCount": 6,
+        "trackRecordCount": 0
+      },
+      {
+        "candidateId": "gabriel-attal",
+        "name": "Gabriel Attal",
+        "proposalCount": 6,
+        "trackRecordCount": 0
+      },
+      {
+        "candidateId": "bruno-retailleau",
+        "name": "Bruno Retailleau",
+        "proposalCount": 7,
+        "trackRecordCount": 0
+      },
+      {
+        "candidateId": "marine-tondelier",
+        "name": "Marine Tondelier",
+        "proposalCount": 6,
+        "trackRecordCount": 0
+      },
+      {
+        "candidateId": "eric-zemmour",
+        "name": "Éric Zemmour",
+        "proposalCount": 6,
+        "trackRecordCount": 0
+      }
+    ],
+    "unmappedProposals": []
+  },
+  "definitions": {
+    "historicalProposal": "Proposition dont attribution.kind vaut past_program ; elle est conservée comme archive et ne vaut pas un engagement 2027 présumé.",
+    "qualifiedPrecedent": "Fiche de track-record avec date, relation, conclusion et au moins une source complète (titre, éditeur, URL).",
+    "secondaryOnlyProposal": "Proposition dont toutes les sources actuellement rattachées sont de kind secondaire.",
+    "nonExhaustiveProgram": "Programme dont le statut signale des orientations, une publication progressive, un corpus partiel, un socle ou un document collectif non équivalent à un engagement personnel exhaustif.",
+    "emptyCell": "Couple candidat-thème sans proposition actuellement recensée dans proposals.json."
+  },
+  "caveats": [
+    "Un zéro ne prouve pas l'absence d'une proposition : il signifie seulement qu'aucune proposition n'est actuellement recensée dans la cellule du corpus.",
+    "Le rattachement des propositions aux programmes est déduit du candidat, car proposals.json ne contient pas de programId ; les compteurs de programCoverage décrivent donc le corpus du candidat, pas une extraction exhaustive de ce programme.",
+    "Le registre des programmes lui-même est un premier passage transversal et ne constitue pas une extraction exhaustive de tous les documents et de toutes leurs mesures."
+  ]
+}

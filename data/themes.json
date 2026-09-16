@@ -1,0 +1,10 @@
+[
+  { "id": "economie", "label": "Économie, dette et pouvoir d’achat" },
+  { "id": "ecologie", "label": "Écologie, climat et énergie" },
+  { "id": "institutions", "label": "Institutions, démocratie et Europe" },
+  { "id": "securite", "label": "Immigration, sécurité et justice" },
+  { "id": "technologie", "label": "Technologie, IA et numérique" },
+  { "id": "education", "label": "Éducation et recherche" },
+  { "id": "sante", "label": "Santé et protection sociale" },
+  { "id": "retraites", "label": "Retraites et vieillissement" }
+]

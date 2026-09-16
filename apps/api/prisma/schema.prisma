@@ -1,0 +1,211 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Candidate {
+  id                String     @id
+  name              String
+  party             String
+  politicalPosition String     @map("political_position")
+  accent            String
+  portraitUrl       String?    @map("portrait_url")
+  portraitSource    String?    @map("portrait_source")
+  partyShortName    String?    @map("party_short_name")
+  partyLogoUrl      String?    @map("party_logo_url")
+  partyLogoSource   String?    @map("party_logo_source")
+  createdAt         DateTime   @default(now()) @map("created_at")
+  updatedAt         DateTime   @updatedAt @map("updated_at")
+  programs          Program[]
+  proposals         Proposal[]
+  trackRecords      TrackRecord[]
+
+  @@index([name])
+  @@map("candidates")
+}
+
+model Theme {
+  id        String     @id
+  label     String
+  createdAt DateTime   @default(now()) @map("created_at")
+  updatedAt DateTime   @updatedAt @map("updated_at")
+  proposals Proposal[]
+  trackRecords TrackRecord[]
+
+  @@map("themes")
+}
+
+model Program {
+  id          String    @id
+  candidateId String    @map("candidate_id")
+  title       String
+  url         String
+  publisher   String
+  sourceKind  String    @map("source_kind")
+  status      String
+  checkedAt   DateTime  @map("checked_at")
+  note        String?
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
+  candidate   Candidate @relation(fields: [candidateId], references: [id], onDelete: Restrict, onUpdate: Cascade)
+
+  @@index([candidateId])
+  @@index([status])
+  @@map("programs")
+}
+
+model Proposal {
+  id              String           @id
+  candidateId     String           @map("candidate_id")
+  themeId         String           @map("theme_id")
+  title           String
+  summary         String
+  publishedAt     DateTime?        @map("published_at")
+  dateKind         String?          @map("date_kind")
+  dateLabel        String?          @map("date_label")
+  status          String
+  confidence      String
+  attribution     Json             @default("{}")
+  evaluation      Json             @default("{}")
+  scores          Json             @default("[]")
+  createdAt       DateTime         @default(now()) @map("created_at")
+  updatedAt       DateTime         @updatedAt @map("updated_at")
+  candidate       Candidate        @relation(fields: [candidateId], references: [id], onDelete: Restrict, onUpdate: Cascade)
+  theme           Theme            @relation(fields: [themeId], references: [id], onDelete: Restrict, onUpdate: Cascade)
+  sourceLinks     ProposalSource[]
+  analyses        AiAnalysis[]
+  reviewDecisions ReviewDecision[]
+
+  @@index([candidateId])
+  @@index([themeId])
+  @@index([status])
+  @@index([publishedAt])
+  @@map("proposals")
+}
+
+model TrackRecord {
+  id                 String    @id
+  candidateId        String    @map("candidate_id")
+  themeId            String    @map("theme_id")
+  kind               String
+  title              String
+  summary            String
+  date               DateTime
+  relationship       String
+  conclusion         String
+  relatedProposalIds Json      @default("[]") @map("related_proposal_ids")
+  sources            Json      @default("[]")
+  createdAt          DateTime  @default(now()) @map("created_at")
+  updatedAt          DateTime  @updatedAt @map("updated_at")
+  candidate          Candidate @relation(fields: [candidateId], references: [id], onDelete: Restrict, onUpdate: Cascade)
+  theme              Theme     @relation(fields: [themeId], references: [id], onDelete: Restrict, onUpdate: Cascade)
+
+  @@index([candidateId, date])
+  @@index([themeId])
+  @@index([relationship])
+  @@map("track_records")
+}
+
+model Source {
+  id          String    @id
+  programId   String?   @map("program_id")
+  kind        String
+  title       String
+  publisher   String
+  url         String
+  publishedAt DateTime? @map("published_at")
+  accessedAt  DateTime  @map("accessed_at")
+  excerpt     String?
+  metadata    Json      @default("{}")
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
+  proposalLinks ProposalSource[]
+
+  @@unique([url])
+  @@index([programId])
+  @@map("sources")
+}
+
+model ProposalSource {
+  proposalId String   @map("proposal_id")
+  sourceId   String   @map("source_id")
+  createdAt  DateTime @default(now()) @map("created_at")
+  proposal   Proposal @relation(fields: [proposalId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  source     Source   @relation(fields: [sourceId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+
+  @@id([proposalId, sourceId])
+  @@index([sourceId])
+  @@map("proposal_sources")
+}
+
+model AiAnalysis {
+  id            String   @id @default(cuid())
+  proposalId    String   @map("proposal_id")
+  provider      String
+  model         String?
+  promptVersion String   @default("legacy") @map("prompt_version")
+  status        String   @default("draft")
+  input         Json     @default("{}")
+  output        Json     @default("{}")
+  createdAt     DateTime @default(now()) @map("created_at")
+  updatedAt     DateTime @updatedAt @map("updated_at")
+  proposal      Proposal @relation(fields: [proposalId], references: [id], onDelete: Restrict, onUpdate: Cascade)
+
+  @@unique([proposalId, provider, promptVersion])
+  @@index([provider])
+  @@index([status])
+  @@map("ai_analyses")
+}
+
+model Account {
+  id              String           @id
+  email           String           @unique
+  displayName     String           @map("display_name")
+  role            String
+  active          Boolean          @default(true)
+  createdAt       DateTime         @default(now()) @map("created_at")
+  updatedAt       DateTime         @updatedAt @map("updated_at")
+  reviewDecisions ReviewDecision[]
+
+  @@map("accounts")
+}
+
+model ReviewDecision {
+  id         String   @id @default(cuid())
+  proposalId String   @map("proposal_id")
+  reviewerId String?  @map("reviewer_id")
+  decision   String
+  rationale  String?
+  metadata   Json     @default("{}")
+  createdAt  DateTime @default(now()) @map("created_at")
+  proposal   Proposal @relation(fields: [proposalId], references: [id], onDelete: Restrict, onUpdate: Cascade)
+  reviewer   Account? @relation(fields: [reviewerId], references: [id], onDelete: SetNull, onUpdate: Cascade)
+
+  @@index([proposalId, createdAt])
+  @@index([reviewerId])
+  @@map("review_decisions")
+}
+
+model AuditEvent {
+  id            String   @id @default(cuid())
+  actorType     String   @map("actor_type")
+  actorId       String?  @map("actor_id")
+  action        String
+  entityType    String   @map("entity_type")
+  entityId      String?  @map("entity_id")
+  result        String
+  environment   String
+  correlationId String?  @map("correlation_id")
+  reason        String?
+  metadata      Json     @default("{}")
+  createdAt     DateTime @default(now()) @map("created_at")
+
+  @@index([entityType, entityId])
+  @@index([actorId, createdAt])
+  @@index([createdAt])
+  @@map("audit_events")
+}

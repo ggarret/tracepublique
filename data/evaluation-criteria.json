@@ -1,0 +1,44 @@
+[
+  {
+    "id": "economy-budget",
+    "label": "Économie et budget",
+    "weight": 20,
+    "color": "#3657B5",
+    "description": "Chiffrage, financement, hypothèses économiques et effets attendus."
+  },
+  {
+    "id": "law-institutions",
+    "label": "Droit et institutions",
+    "weight": 20,
+    "color": "#167B8C",
+    "description": "Compétence, procédure, constitutionnalité, droit européen et précédents."
+  },
+  {
+    "id": "social-effects",
+    "label": "Effets sociaux",
+    "weight": 15,
+    "color": "#A13D78",
+    "description": "Publics concernés, effets distributifs, égalité et accès aux droits."
+  },
+  {
+    "id": "environment",
+    "label": "Environnement",
+    "weight": 15,
+    "color": "#2D7A4F",
+    "description": "Climat, énergie, ressources, santé environnementale et effets indirects."
+  },
+  {
+    "id": "ethics-freedoms",
+    "label": "Éthique et libertés",
+    "weight": 15,
+    "color": "#B56A16",
+    "description": "Droits fondamentaux, proportionnalité, équité et voies de recours."
+  },
+  {
+    "id": "feasibility",
+    "label": "Faisabilité",
+    "weight": 15,
+    "color": "#6654A3",
+    "description": "Calendrier, moyens administratifs, dépendances, contrôles et indicateurs."
+  }
+]

@@ -1,0 +1,583 @@
+[
+  {
+    "id": "source-rn-tva-energie-2026",
+    "proposalIds": ["proposal-le-pen-tva-energie-2026"],
+    "kind": "primaire",
+    "title": "Page d'accueil — réduction de la TVA sur l'énergie",
+    "publisher": "Rassemblement national",
+    "url": "https://www.rassemblementnational.fr/",
+    "accessedAt": "2026-09-16",
+    "excerpt": "La page met en avant une réduction de la TVA de 20 % à 5,5 % sur l'énergie."
+  },
+  {
+    "id": "source-bfmtv-carburant-melenchon-20260915",
+    "proposalIds": ["proposal-carburant-001"],
+    "kind": "secondaire",
+    "title": "Prix du carburant : Jean-Luc Mélenchon réclame le blocage des marges des raffineurs",
+    "publisher": "BFMTV",
+    "url": "https://www.bfmtv.com/politique/la-france-insoumise/video-prix-du-carburant-jean-luc-melenchon-candidat-lfi-a-l-election-presidentielle-reclame-le-blocage-des-marges-des-raffineurs_VN-202609150515.html",
+    "publishedAt": "2026-09-15",
+    "accessedAt": "2026-09-15",
+    "excerpt": "Le titre de la source attribue à Jean-Luc Mélenchon la demande de blocage des marges des raffineurs."
+  },
+  {
+    "id": "source-melenchon-lettre-sixieme-republique-2026",
+    "proposalIds": ["proposal-melenchon-sixieme-republique-2026"],
+    "kind": "primaire",
+    "title": "Lettre au peuple de France",
+    "publisher": "Jean-Luc Mélenchon / campagne 2027",
+    "url": "https://melenchon.fr/wp-content/uploads/2026/05/LETTRE-AU-PEUPLE-DE-FRANCE-.pdf",
+    "publishedAt": "2026-05-05",
+    "accessedAt": "2026-09-16",
+    "excerpt": "La lettre propose le passage à la Sixième République, le référendum d'initiative citoyenne et le droit de révoquer tout élu."
+  },
+  {
+    "id": "source-philippe-prospere-retraites-2026",
+    "proposalIds": [
+      "proposal-philippe-capitalisation-2026",
+      "proposal-philippe-pacte-fiscal-entreprises-2026",
+      "proposal-philippe-regle-or-deficits-2026",
+      "proposal-philippe-stabiliser-depenses-sante-2026",
+      "proposal-philippe-moratoire-normatif-fiscal-2026",
+      "proposal-philippe-territoires-souverainete-alimentaire-2026"
+    ],
+    "kind": "primaire",
+    "title": "Pour une France plus prospère",
+    "publisher": "Avec Édouard 2027",
+    "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le site propose de créer un pilier de capitalisation à 10-15 % des pensions d'ici quinze ans."
+  },
+  {
+    "id": "source-philippe-conquerante-ia-2026",
+    "proposalIds": ["proposal-philippe-ingenieurs-ia-2026", "proposal-philippe-datar-adaptation-2026"],
+    "kind": "primaire",
+    "title": "Pour une France plus conquérante",
+    "publisher": "Avec Édouard 2027",
+    "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le site fixe l'objectif de passer de 40 000 à 100 000 ingénieurs formés par an en cinq ans."
+  },
+  {
+    "id": "source-philippe-sure-2026",
+    "proposalIds": ["proposal-philippe-etat-urgence-narco-2026"],
+    "kind": "primaire",
+    "title": "Pour une France plus sûre",
+    "publisher": "Avec Édouard 2027",
+    "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
+    "accessedAt": "2026-09-16",
+    "excerpt": "La page propose un état d'urgence contre le narcotrafic, limité dans le temps et l'espace, pouvant inclure la reconnaissance faciale ciblée."
+  },
+  {
+    "id": "source-philippe-attentive-enfants-2026",
+    "proposalIds": ["proposal-philippe-soutien-scolaire-universel-2026", "proposal-philippe-aide-familiale-unique-2026"],
+    "kind": "primaire",
+    "title": "Pour une France plus attentive à ses enfants",
+    "publisher": "Avec Édouard 2027",
+    "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants",
+    "accessedAt": "2026-09-16",
+    "excerpt": "La page propose un service universel de soutien scolaire et une aide financière universelle aux familles issue de la fusion des dispositifs existants."
+  },
+  {
+    "id": "source-place-publique-smic-1600-2025",
+    "proposalIds": [
+      "proposal-glucksmann-smic-1600-2025",
+      "proposal-glucksmann-fonds-defense-europeen-2025",
+      "proposal-glucksmann-agence-numerique-ia-2025",
+      "proposal-glucksmann-salaires-enseignants-cinq-ans-2025",
+      "proposal-glucksmann-plan-renouvelables-2025"
+    ],
+    "kind": "primaire",
+    "title": "Projet Place publique — Acte I",
+    "publisher": "Place publique",
+    "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+    "publishedAt": "2025-06-23",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le document prévoit d'augmenter le SMIC à 1 600 euros net dans les deux ans suivant l'accession au pouvoir."
+  },
+  {
+    "id": "source-renaissance-salaire-median-2026",
+    "proposalIds": ["proposal-attal-salaire-median-3000-2026"],
+    "kind": "primaire",
+    "title": "Conventions thématiques — Nouvelle donne économique et écologique",
+    "publisher": "Renaissance",
+    "url": "https://doc.parti.re/Conventions-thematiques_Nouvelle-donne.pdf",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le document évoque l'objectif de faire évoluer le salaire médian de 2 200 à plus de 3 000 euros net par mois."
+  },
+  {
+    "id": "source-bfmtv-ordre-republicain-retailleau-20260915",
+    "proposalIds": ["proposal-ordre-republicain-001"],
+    "kind": "secondaire",
+    "title": "Bruno Retailleau propose de réviser la Constitution pour y mettre une charte de l'ordre républicain",
+    "publisher": "BFMTV",
+    "url": "https://www.bfmtv.com/politique/les-republicains/video-manifestation-des-policiers-je-reviserai-la-constitution-pour-y-mettre-une-charte-de-l-ordre-republicain-propose-bruno-retailleau-candidat-les-republicains-a-l-election-presidentielle_VN-202609150496.html",
+    "publishedAt": "2026-09-15",
+    "accessedAt": "2026-09-15",
+    "excerpt": "Le titre attribue à Bruno Retailleau la proposition de réviser la Constitution pour y inscrire une charte de l'ordre républicain."
+  },
+  {
+    "id": "source-lr-travail-gagnant-1623-2026",
+    "proposalIds": ["proposal-retailleau-zero-cotisation-2026"],
+    "kind": "primaire",
+    "title": "Nos propositions pour la France — Travail gagnant",
+    "publisher": "Les Républicains",
+    "url": "https://republicains.fr/wp-content/uploads/2026/01/LesRepublicains_NosPropositionsPourLaFrance_TravailGagnant.pdf",
+    "publishedAt": "2026-01-01",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le document propose un seuil de 1 623 heures annuelles puis une exonération totale de cotisations sur les heures supplémentaires au-delà."
+  },
+  {
+    "id": "source-ruffin-ter-29-euros-2026",
+    "proposalIds": ["proposal-ruffin-ter-29-euros-2026"],
+    "kind": "primaire",
+    "title": "Pour renouer avec le temps des loisirs",
+    "publisher": "Nous Président ! — campagne François Ruffin",
+    "url": "https://nouspresident.fr/temps-loisirs/",
+    "publishedAt": "2026-07-01",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le projet propose un billet populaire illimité à 29 euros sur le réseau TER national du 1er juillet au 31 août."
+  },
+  {
+    "id": "source-tondelier-solitude-prescription-2026",
+    "proposalIds": ["proposal-tondelier-prescription-sociale-2026"],
+    "kind": "primaire",
+    "title": "Lutter contre la solitude — 30 propositions pour une écologie du lien",
+    "publisher": "Campagne de Marine Tondelier / Les Écologistes",
+    "url": "https://lesecologistes.fr/document/1qgrmgECCdZlFIldtMe7PC/livretthematique-lutte-contre-la-solitude.pdf",
+    "publishedAt": "2026-05-13",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le livret propose de développer la prescription sociale pour que les médecins orientent vers des activités collectives favorisant les liens."
+  },
+  {
+    "id": "source-zemmour-programme-chiffrage-2022",
+    "proposalIds": [
+      "proposal-zemmour-prestations-etrangers-2022",
+      "proposal-zemmour-referendum-immigration-securite-justice-2022",
+      "proposal-zemmour-college-niveaux-quatrieme-2022",
+      "proposal-zemmour-baisse-csg-salaires-2022",
+      "proposal-zemmour-epr2-parc-60-ans-2022",
+      "proposal-zemmour-hopital-formations-sante-2022"
+    ],
+    "kind": "primaire",
+    "title": "La Reconquête chiffrée et financée — programme présidentiel 2022",
+    "publisher": "Campagne Éric Zemmour 2022",
+    "url": "https://assets.nationbuilder.com/themes/61c071ce4764e8b1483d1a8c/attachments/original/1648220408/programme_eric_zemmour_presidentielle_2022.pdf?1648220408=",
+    "publishedAt": "2022-03-25",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le programme personnel présidentiel 2022 chiffre la suppression de prestations non contributives pour les étrangers extra-européens et prévoit notamment un référendum, la fin du collège unique, une baisse de CSG, au moins 14 EPR2 et un renforcement des effectifs de santé."
+  },
+  {
+    "id": "source-roussel-discours-electricite-2026",
+    "proposalIds": ["proposal-roussel-electricite-decarbonee-2026"],
+    "kind": "primaire",
+    "title": "Université d'été 2026 — discours de Fabien Roussel",
+    "publisher": "Parti communiste français",
+    "url": "https://www.pcf.fr/ue_26_discours_fr",
+    "publishedAt": "2026-08-26",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Fabien Roussel propose le doublement de la production d'électricité stable et décarbonée issue des renouvelables et du nucléaire."
+  },
+  {
+    "id": "source-rn-immigration-referendum-2026",
+    "proposalIds": [
+      "proposal-le-pen-rn-referendum-immigration-2026"
+    ],
+    "kind": "primaire",
+    "title": "Le double-langage de la macronie sur le règlement retour",
+    "publisher": "Rassemblement national",
+    "url": "https://rassemblementnational.fr/tribunes-libres/le-double-langage-de-la-macronie-sur-le-reglement-retour",
+    "publishedAt": "2026-07-17",
+    "accessedAt": "2026-09-16",
+    "excerpt": "La tribune réaffirme le référendum proposé par le RN sur l'immigration, une refonte du droit de l'asile, de l'entrée, du séjour et de la nationalité, ainsi que la primauté du droit français en la matière."
+  },
+  {
+    "id": "source-rn-contre-budget-2026",
+    "proposalIds": [
+      "proposal-le-pen-contre-budget-100-renov-2026",
+      "proposal-le-pen-contre-budget-medicaments-unite-2026",
+      "proposal-le-pen-contre-budget-retraites-2026"
+    ],
+    "kind": "primaire",
+    "title": "Contre-budget 2026",
+    "publisher": "Groupe Rassemblement National",
+    "url": "https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf",
+    "publishedAt": "2025-10-23",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le document présenté le 23 octobre 2025 inscrit notamment le remplacement de MaPrimeRénov' par 100 % Rénov, la délivrance des médicaments à l'unité et le lancement de la réforme des retraites du RN."
+  },
+  {
+    "id": "source-le-pen-22-mesures-2022-education",
+    "proposalIds": [
+      "proposal-le-pen-programme-2022-uniforme-ecole"
+    ],
+    "kind": "primaire",
+    "title": "22 mesures pour 2022",
+    "publisher": "Campagne présidentielle de Marine Le Pen / Rassemblement national",
+    "url": "https://rassemblementnational.fr/22-mesures",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Dans la rubrique consacrée à la présidentielle de 2022, le programme de Marine Le Pen proposait l'instauration d'un uniforme au primaire et au collège."
+  },
+  {
+    "id": "source-melenchon-saint-denis-campagne-2027-2026",
+    "proposalIds": [
+      "proposal-melenchon-smic-1700-2026",
+      "proposal-melenchon-retraite-60-2026"
+    ],
+    "kind": "primaire",
+    "title": "Le discours de Jean-Luc Mélenchon à Saint-Denis pour ouvrir la campagne présidentielle des insoumis",
+    "publisher": "Jean-Luc Mélenchon — Le blog",
+    "url": "https://melenchon.fr/2026/06/07/meeting-de-jean-luc-melenchon-a-saint-denis/",
+    "publishedAt": "2026-06-07",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Jean-Luc Mélenchon annonce un SMIC à 1 700 euros, l'abrogation de la réforme portant l'âge de départ à 64 ans et le retour de la retraite à 60 ans."
+  },
+  {
+    "id": "source-lfi-avenir-en-commun-2025-revision",
+    "proposalIds": [
+      "proposal-melenchon-parcoursup-2025",
+      "proposal-melenchon-cannabis-monopole-2025"
+    ],
+    "kind": "primaire",
+    "title": "L'Avenir en commun — édition 2025",
+    "publisher": "La France insoumise",
+    "url": "https://programme.lafranceinsoumise.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+    "accessedAt": "2026-09-16",
+    "excerpt": "L'édition 2025 propose de démanteler Parcoursup pour garantir un accès sans sélection à la formation choisie et de légaliser le cannabis dans le cadre d'un monopole d'État."
+  },
+  {
+    "id": "source-melenchon2027-programme-actualisation-2026",
+    "proposalIds": [
+      "proposal-melenchon-parcoursup-2025",
+      "proposal-melenchon-cannabis-monopole-2025"
+    ],
+    "kind": "primaire",
+    "title": "Construction du programme présidentiel 2027",
+    "publisher": "Mélenchon 2027",
+    "url": "https://melenchon2027.fr/",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le site de candidature présente L'Avenir en commun 2025 comme un élément du corpus de La France insoumise et indique que les contributions citoyennes doivent compléter le programme pour 2027."
+  },
+  {
+    "id": "source-melenchon-ecoregions-2026",
+    "proposalIds": [
+      "proposal-melenchon-ecoregions-2026"
+    ],
+    "kind": "primaire",
+    "title": "Une nouvelle gauche d'action a surgi, elle est faite d'insoumis et de verts, tous écologistes — entretien",
+    "publisher": "Jean-Luc Mélenchon — Le blog",
+    "url": "https://melenchon.fr/2026/07/22/une-nouvelle-gauche-daction-a-surgi-elle-est-faite-dinsoumis-et-de-verts-tous-ecologistes-interview-reporterre/",
+    "publishedAt": "2026-07-22",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Jean-Luc Mélenchon défend le remplacement des régions actuelles par des écorégions et précise travailler à un découpage centré sur des sous-bassins versants, chargé notamment du cycle de l'eau, des sols, de la biodiversité, des forêts, de l'air, des mobilités et des risques climatiques."
+  },
+  {
+    "id": "source-attal-programme-education-2026",
+    "proposalIds": [
+      "proposal-attal-classes-moins-20-2026"
+    ],
+    "kind": "primaire",
+    "title": "École — chantier capital 01",
+    "publisher": "Gabriel Attal Président — campagne 2027",
+    "url": "https://attalpresident.fr/programme/education",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le programme personnel propose de viser moins de vingt élèves par classe dans le primaire en mobilisant les moyens libérés par la baisse démographique."
+  },
+  {
+    "id": "source-attal-programme-travail-salaires-2026",
+    "proposalIds": [
+      "proposal-attal-livret-garde-enfant-2026"
+    ],
+    "kind": "primaire",
+    "title": "Travail & salaires — chantier capital 02",
+    "publisher": "Gabriel Attal Président — campagne 2027",
+    "url": "https://attalpresident.fr/programme/travail-salaires",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le programme personnel propose un livret d'épargne inspiré du livret A afin d'orienter l'épargne vers le financement de nouvelles places en crèche."
+  },
+  {
+    "id": "source-attal-programme-ia-2026",
+    "proposalIds": [
+      "proposal-attal-formation-ia-universelle-2026"
+    ],
+    "kind": "primaire",
+    "title": "Intelligence artificielle — chantier capital 04",
+    "publisher": "Gabriel Attal Président — campagne 2027",
+    "url": "https://attalpresident.fr/programme/intelligence-artificielle",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le programme personnel veut former l'ensemble des Français à l'intelligence artificielle, du primaire à la reconversion professionnelle."
+  },
+  {
+    "id": "source-attal-programme-frontieres-2026",
+    "proposalIds": [
+      "proposal-attal-immigration-points-travail-2026"
+    ],
+    "kind": "primaire",
+    "title": "Frontières — chantier capital 03",
+    "publisher": "Gabriel Attal Président — campagne 2027",
+    "url": "https://attalpresident.fr/programme/frontieres",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le programme personnel propose une immigration de travail organisée par un système à points fondé notamment sur l'emploi, le logement et la maîtrise du français."
+  },
+  {
+    "id": "source-attal-programme-dette-ecologique-2026",
+    "proposalIds": [
+      "proposal-attal-reduction-emissions-5-pourcent-2030"
+    ],
+    "kind": "primaire",
+    "title": "Dette écologique — dette à résorber 02",
+    "publisher": "Gabriel Attal Président — campagne 2027",
+    "url": "https://attalpresident.fr/programme/dette-ecologique",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le programme personnel fixe l'objectif de porter la réduction annuelle des émissions de 1,8 % à 5 % d'ici 2030."
+  },
+  {
+    "id": "source-glucksmann-lettre-francais-2026",
+    "proposalIds": [
+      "proposal-glucksmann-demarchandiser-ehpad-creches-2026"
+    ],
+    "kind": "primaire",
+    "title": "Raphaël Glucksmann — Sa lettre aux Français",
+    "publisher": "Raphaël Glucksmann / Place publique",
+    "url": "https://place-publique.eu/posts/2fgDdljEIy36rgxBjRyiQZ/raphael-glucksmann-sa-lettre-aux-francais",
+    "publishedAt": "2026-08-25",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Dans sa lettre personnelle de candidature, Raphaël Glucksmann annonce vouloir démarchandiser les EHPAD et les crèches."
+  },
+  {
+    "id": "source-tondelier-sante-reproductive-page-2026",
+    "proposalIds": [
+      "proposal-tondelier-vaccination-hpv-80-2030"
+    ],
+    "kind": "primaire",
+    "title": "Prendre soin de notre santé reproductive : nos propositions",
+    "publisher": "Les Écologistes — campagne de Marine Tondelier",
+    "url": "https://lesecologistes.fr/posts/s4ZJsRtDCRTlqnqfzGFP0/prendre-soin-de-notre-sante-reproductive-nos-propositions",
+    "publishedAt": "2026-09-09",
+    "accessedAt": "2026-09-16",
+    "excerpt": "La page officielle présente le livret comme une contribution de Marine Tondelier et de plusieurs porte-paroles à la campagne présidentielle."
+  },
+  {
+    "id": "source-tondelier-sante-reproductive-livret-2026",
+    "proposalIds": [
+      "proposal-tondelier-vaccination-hpv-80-2030"
+    ],
+    "kind": "primaire",
+    "title": "Prendre soin de notre santé reproductive — livret thématique",
+    "publisher": "Campagne de Marine Tondelier",
+    "url": "https://lesecologistes.fr/document/79R6mBUDDQU6tylI4f0C9e/livret-santereproductive-11sep.pdf",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le livret fixe l'objectif de 80 % de couverture vaccinale contre les HPV en 2030, avec vaccination au collège, rattrapage et information scientifique."
+  },
+  {
+    "id": "source-tondelier-littoraux-page-2026",
+    "proposalIds": [
+      "proposal-tondelier-fonds-adaptation-littoral-2026"
+    ],
+    "kind": "primaire",
+    "title": "Des littoraux à vivre, à protéger et à transmettre",
+    "publisher": "Les Écologistes — campagne de Marine Tondelier",
+    "url": "https://lesecologistes.fr/posts/3E8JJgNWbKiAsuex9f3Iij/des-littoraux-a-vivre-a-proteger-et-a-transmettre",
+    "publishedAt": "2026-09-14",
+    "accessedAt": "2026-09-16",
+    "excerpt": "La page officielle indique que Marine Tondelier a présenté les propositions du livret avec Damien Girard et Mathilde Ollivier."
+  },
+  {
+    "id": "source-tondelier-littoraux-livret-2026",
+    "proposalIds": [
+      "proposal-tondelier-fonds-adaptation-littoral-2026"
+    ],
+    "kind": "primaire",
+    "title": "Des littoraux à vivre, à protéger et à transmettre — livret thématique",
+    "publisher": "Campagne de Marine Tondelier",
+    "url": "https://lesecologistes.fr/document/5rU9UZBkKlc5WKgBrTlbKV/livret-littoral-1.pdf",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le livret propose un fonds national finançant notamment renaturation, acquisitions foncières, recomposition, relocalisations et accompagnement des habitants."
+  },
+  {
+    "id": "source-les-ecologistes-projet-2027-page-2026",
+    "proposalIds": [
+      "proposal-tondelier-conge-climatique-2026",
+      "proposal-tondelier-marquage-contenus-ia-2026",
+      "proposal-tondelier-petitions-vote-assemblee-2026"
+    ],
+    "kind": "primaire",
+    "title": "Projet 2027",
+    "publisher": "Les Écologistes",
+    "url": "https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027",
+    "accessedAt": "2026-09-16",
+    "excerpt": "La page décrit un programme collectif de 557 mesures élaboré avec les commissions, des élus, des auditions et une consultation citoyenne."
+  },
+  {
+    "id": "source-les-ecologistes-programme-2027-2026",
+    "proposalIds": [
+      "proposal-tondelier-conge-climatique-2026",
+      "proposal-tondelier-marquage-contenus-ia-2026",
+      "proposal-tondelier-petitions-vote-assemblee-2026"
+    ],
+    "kind": "primaire",
+    "title": "Pour une prospérité écologique — le nouveau programme des Écologistes",
+    "publisher": "Les Écologistes",
+    "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le programme collectif de juillet 2026 prévoit notamment le congé climatique, le marquage des contenus générés par IA et un seuil pour les pétitions parlementaires."
+  },
+  {
+    "id": "source-retailleau-cour-disciplinaire-2026",
+    "proposalIds": [
+      "proposal-retailleau-cour-disciplinaire-magistrature-2026"
+    ],
+    "kind": "primaire",
+    "title": "Il faut créer une cour disciplinaire de la magistrature",
+    "publisher": "Bruno Retailleau / Les Républicains",
+    "url": "https://republicains.fr/actualites/2026/06/06/il-faut-creer-une-cour-disciplinaire-de-la-magistrature/",
+    "publishedAt": "2026-06-06",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Bruno Retailleau propose une cour disciplinaire comprenant des citoyens tirés au sort, des magistrats et des personnalités qualifiées."
+  },
+  {
+    "id": "source-retailleau-defense-lpm-2026",
+    "proposalIds": [
+      "proposal-retailleau-defense-100-milliards-2026"
+    ],
+    "kind": "primaire",
+    "title": "L’unité nationale, première de nos armes",
+    "publisher": "Bruno Retailleau / Les Républicains",
+    "url": "https://republicains.fr/actualites/2026/07/14/lunite-nationale-premiere-de-nos-armes/",
+    "publishedAt": "2026-07-14",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le candidat annonce pour 2027 un Livre blanc et une loi de programmation portant l’effort de défense à 100 milliards d’euros en fin de quinquennat."
+  },
+  {
+    "id": "source-retailleau-ia-data-centers-2026",
+    "proposalIds": [
+      "proposal-retailleau-datacenters-souverains-2026"
+    ],
+    "kind": "primaire",
+    "title": "Sur l’IA, nous avons une fenêtre de tir de deux ans",
+    "publisher": "Bruno Retailleau / Les Républicains",
+    "url": "https://republicains.fr/actualites/2026/07/07/sur-lia-nous-avons-une-fenetre-de-tir-de-deux-ans/",
+    "publishedAt": "2026-07-07",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Bruno Retailleau fixe pour les centres de données souverains des capacités cibles de 1 gigawatt en 2030 et 4 gigawatts en 2035."
+  },
+  {
+    "id": "source-retailleau-adaptation-eau-2026",
+    "proposalIds": [
+      "proposal-retailleau-retenues-eau-interet-public-2026"
+    ],
+    "kind": "primaire",
+    "title": "Face au réchauffement climatique, adapter la France plutôt que punir",
+    "publisher": "Bruno Retailleau / Les Républicains",
+    "url": "https://republicains.fr/actualites/2026/08/09/face-au-rechauffement-climatique-adapter-la-france-plutot-que-punir/",
+    "publishedAt": "2026-08-09",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Bruno Retailleau propose de reconnaître les retenues d’eau comme projets d’intérêt public majeur dans une politique d’adaptation."
+  },
+  {
+    "id": "source-lr-revenu-familial-2026",
+    "proposalIds": [
+      "proposal-retailleau-revenu-familial-2026"
+    ],
+    "kind": "primaire",
+    "title": "Une politique pour toutes les familles de France",
+    "publisher": "Les Républicains",
+    "url": "https://republicains.fr/wp-content/uploads/2026/05/LR_Famille_vFinale.pdf",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le document propose de remplacer douze dispositifs par un revenu familial de 240 euros mensuels pour chaque enfant mineur."
+  },
+  {
+    "id": "source-ruffin-cahier-travailleurs-essentiels-2026",
+    "proposalIds": [
+      "proposal-ruffin-indexation-salaires-inflation-2026",
+      "proposal-ruffin-retraite-penibilite-trimestres-2026"
+    ],
+    "kind": "primaire",
+    "title": "Pour un statut des travailleuses et travailleurs essentiels",
+    "publisher": "Nous Président ! — campagne François Ruffin",
+    "url": "https://nouspresident.fr/statut-travailleurs-essentiels/",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le cahier propose d’indexer les salaires sur l’inflation et d’accorder automatiquement un trimestre supplémentaire de retraite pour quatre trimestres cotisés dans un métier exposé à la pénibilité."
+  },
+  {
+    "id": "source-ruffin-cahier-separation-argent-etat-2026",
+    "proposalIds": [
+      "proposal-ruffin-haute-autorite-probite-2026"
+    ],
+    "kind": "primaire",
+    "title": "Pour une séparation de l’argent et de l’État",
+    "publisher": "Nous Président ! — campagne François Ruffin",
+    "url": "https://nouspresident.fr/separation-argent-etat/",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le cahier propose de fusionner les organes chargés de l’éthique de la vie publique dans une Haute Autorité à la Probité dotée de moyens d’enquête et de sanctions administratives."
+  },
+  {
+    "id": "source-ruffin-cahier-travaillisme-ecologique-2026",
+    "proposalIds": [
+      "proposal-ruffin-formations-reconstruction-ecologique-2026",
+      "proposal-ruffin-renovation-15-milliards-2026"
+    ],
+    "kind": "primaire",
+    "title": "Face au chantier du siècle : pour un travaillisme écologique",
+    "publisher": "Nous Président ! — campagne François Ruffin",
+    "url": "https://nouspresident.fr/travaillisme-ecologique/",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le cahier propose une planification régionale des formations nécessaires à la reconstruction écologique et un financement de 15 milliards d’euros par an pour la rénovation des logements."
+  },
+  {
+    "id": "source-ruffin-corpus-cahiers-2026",
+    "proposalIds": [
+      "proposal-ruffin-indexation-salaires-inflation-2026",
+      "proposal-ruffin-retraite-penibilite-trimestres-2026",
+      "proposal-ruffin-haute-autorite-probite-2026",
+      "proposal-ruffin-formations-reconstruction-ecologique-2026",
+      "proposal-ruffin-renovation-15-milliards-2026"
+    ],
+    "kind": "primaire",
+    "title": "Nos propositions pour remettre le pays debout",
+    "publisher": "Nous Président ! — campagne François Ruffin",
+    "url": "https://nouspresident.fr/",
+    "accessedAt": "2026-09-16",
+    "excerpt": "À la date d’observation, la rubrique affiche quatre cahiers consacrés aux travailleurs essentiels, à la séparation de l’argent et de l’État, aux loisirs et au travaillisme écologique. Aucun cahier dédié aux thèmes Santé et protection sociale, Immigration, sécurité et justice ou Technologie, IA et numérique n’y apparaît."
+  },
+  {
+    "id": "source-roussel-fete-humanite-discours-2026",
+    "proposalIds": [
+      "proposal-roussel-nationalisation-sanction-total-2026",
+      "proposal-roussel-sortie-energies-fossiles-quinze-ans-2026"
+    ],
+    "kind": "primaire",
+    "title": "Fête de l'Humanité 2026 — discours de Fabien Roussel",
+    "publisher": "Parti communiste français",
+    "url": "https://www.pcf.fr/fete_de_lhumanite_2026_discours_de_fabien_roussel",
+    "publishedAt": "2026-09-15",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Fabien Roussel propose une « nationalisation-sanction » de Total et une planification de la sortie des énergies fossiles dans les quinze prochaines années."
+  },
+  {
+    "id": "source-pcf-pacte-national-avenir-france-2025",
+    "proposalIds": [
+      "proposal-roussel-soins-100-securite-sociale-2025",
+      "proposal-roussel-abrogation-parcoursup-2025"
+    ],
+    "kind": "primaire",
+    "title": "Un pacte national pour l'avenir de la France",
+    "publisher": "Conseil national du Parti communiste français",
+    "url": "https://66.pcf.fr/sites/default/files/resolution_cn_050725.pdf",
+    "publishedAt": "2025-07-05",
+    "accessedAt": "2026-09-16",
+    "excerpt": "La résolution collective du PCF propose le remboursement à 100 % des soins par la Sécurité sociale ainsi que l'abrogation de Parcoursup et de la sélection à l'entrée de l'université."
+  },
+  {
+    "id": "source-roussel-programme-jours-heureux-retraite-2022",
+    "proposalIds": [
+      "proposal-roussel-retraite-60-ans-2022"
+    ],
+    "kind": "primaire",
+    "title": "La France des Jours heureux — programme présidentiel 2022",
+    "publisher": "Campagne présidentielle de Fabien Roussel",
+    "url": "https://d3n8a8pro7vhmx.cloudfront.net/fabienroussel2022/pages/217/attachments/original/1643038967/exe_la_france_des_jours_heureux_LIVRE_stc.pdf?1643038967=",
+    "accessedAt": "2026-09-16",
+    "excerpt": "Le programme présidentiel de 2022 prévoyait une loi rétablissant la retraite à 60 ans à taux plein, avec des paramètres de calcul et des départs anticipés."
+  }
+]

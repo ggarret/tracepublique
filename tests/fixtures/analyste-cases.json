@@ -1,0 +1,146 @@
+[
+  {
+    "id": "analyste-proposition-presidentielle",
+    "description": "Mesure explicitement annoncée pour 2027 avec citation primaire.",
+    "input": {
+      "sourceId": "fixture-source-001",
+      "title": "Bruno Retailleau propose une charte de l'ordre républicain pour 2027",
+      "text": "Je réviserai la Constitution pour y mettre une charte de l'ordre républicain.",
+      "candidates": ["bruno-retailleau"],
+      "themes": ["institutions"]
+    },
+    "expected": {
+      "decision": "proposition",
+      "candidateId": "bruno-retailleau",
+      "candidateConfidence": "forte",
+      "presidentialRelevance": "prochain_mandat",
+      "themeId": "institutions",
+      "claim": "Réviser la Constitution pour y intégrer une charte de l'ordre républicain.",
+      "quote": "Je réviserai la Constitution pour y mettre une charte de l'ordre républicain.",
+      "primarySource": "fixture-source-001",
+      "duplicateOf": null,
+      "confidence": "forte",
+      "status": "a_revoir"
+    }
+  },
+  {
+    "id": "analyste-reaction-sans-promesse",
+    "description": "Réaction à l'actualité : ne pas la transformer en promesse.",
+    "input": {
+      "sourceId": "fixture-source-002",
+      "title": "Mélenchon réagit à la hausse du carburant",
+      "text": "Jean-Luc Mélenchon dénonce l'envolée des prix et réclame le blocage des marges.",
+      "candidates": ["jean-luc-melenchon"],
+      "themes": ["economie"]
+    },
+    "expected": {
+      "decision": "reaction",
+      "candidateId": "jean-luc-melenchon",
+      "candidateConfidence": "forte",
+      "presidentialRelevance": "inconnue",
+      "themeId": "economie",
+      "claim": "Jean-Luc Mélenchon réclame le blocage des marges des raffineurs.",
+      "quote": null,
+      "primarySource": null,
+      "duplicateOf": null,
+      "confidence": "moyenne",
+      "status": "a_revoir"
+    }
+  },
+  {
+    "id": "analyste-biographie-hors-perimetre",
+    "description": "Page biographique d'une personne hors liste.",
+    "input": {
+      "sourceId": "fixture-source-003",
+      "title": "Emmanuel Macron",
+      "text": "Biographie et ancienne candidature à l'élection présidentielle de 2017.",
+      "candidates": ["marine-le-pen", "gabriel-attal"]
+    },
+    "expected": {
+      "decision": "hors_perimetre",
+      "candidateId": null,
+      "candidateConfidence": "faible",
+      "presidentialRelevance": "autre_mandat",
+      "themeId": null,
+      "claim": null,
+      "quote": null,
+      "primarySource": null,
+      "duplicateOf": null,
+      "confidence": "forte",
+      "status": "a_revoir"
+    }
+  },
+  {
+    "id": "analyste-attribution-ambiguë",
+    "description": "Le parti est cité mais l'orateur et l'attribution sont ambigus.",
+    "input": {
+      "sourceId": "fixture-source-004",
+      "title": "Le RN veut renforcer les contrôles",
+      "text": "Selon plusieurs responsables, le parti souhaiterait renforcer les contrôles.",
+      "candidates": ["marine-le-pen"],
+      "themes": ["securite"]
+    },
+    "expected": {
+      "decision": "revue_humaine",
+      "candidateId": null,
+      "candidateConfidence": "faible",
+      "presidentialRelevance": "inconnue",
+      "themeId": "securite",
+      "claim": null,
+      "quote": null,
+      "primarySource": null,
+      "duplicateOf": null,
+      "confidence": "faible",
+      "status": "a_revoir"
+    }
+  },
+  {
+    "id": "analyste-doublon-probable",
+    "description": "Proposition proche d'une fiche déjà connue : conserver la référence et demander revue.",
+    "input": {
+      "sourceId": "fixture-source-005",
+      "title": "Bloquer les marges des raffineurs",
+      "text": "Jean-Luc Mélenchon défend à nouveau le blocage des marges des raffineurs.",
+      "candidates": ["jean-luc-melenchon"],
+      "themes": ["economie"],
+      "knownProposals": [{"id": "proposal-carburant-001", "candidateId": "jean-luc-melenchon", "themeId": "economie", "title": "Blocage des marges des raffineurs"}]
+    },
+    "expected": {
+      "decision": "revue_humaine",
+      "candidateId": "jean-luc-melenchon",
+      "candidateConfidence": "forte",
+      "presidentialRelevance": "inconnue",
+      "themeId": "economie",
+      "claim": "Jean-Luc Mélenchon défend le blocage des marges des raffineurs.",
+      "quote": null,
+      "primarySource": null,
+      "duplicateOf": "proposal-carburant-001",
+      "confidence": "moyenne",
+      "status": "a_revoir"
+    }
+  },
+  {
+    "id": "analyste-source-primaire-manquante",
+    "description": "Promesse rapportée sans source primaire accessible.",
+    "input": {
+      "sourceId": "fixture-source-006",
+      "title": "Gabriel Attal annoncerait une réforme de l'école",
+      "text": "Un article affirme que Gabriel Attal annoncerait une réforme, sans document ni déclaration originale.",
+      "candidates": ["gabriel-attal"],
+      "themes": ["education"]
+    },
+    "expected": {
+      "decision": "revue_humaine",
+      "candidateId": "gabriel-attal",
+      "candidateConfidence": "moyenne",
+      "presidentialRelevance": "inconnue",
+      "themeId": "education",
+      "claim": null,
+      "quote": null,
+      "primarySource": null,
+      "duplicateOf": null,
+      "confidence": "faible",
+      "status": "a_revoir"
+    }
+  }
+]

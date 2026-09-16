@@ -1,0 +1,10 @@
+{
+  "economie": ["budget", "dette", "impôt", "impot", "taxe", "prix", "carburant", "pouvoir d'achat", "salaires", "emploi", "fiscalité", "fiscalite"],
+  "ecologie": ["climat", "écologie", "ecologie", "énergie", "energie", "carbone", "nucléaire", "nucleaire", "environnement"],
+  "institutions": ["constitution", "référendum", "referendum", "europe", "européen", "europeen", "parlement", "démocratie", "democratie", "institutions"],
+  "securite": ["sécurité", "securite", "police", "justice", "immigration", "ordre", "frontière", "frontiere", "délinquance", "delinquance"],
+  "technologie": ["intelligence artificielle", "ia", "numérique", "numerique", "technologie", "données", "donnees", "cybersécurité", "cybersecurite"],
+  "education": ["école", "ecole", "éducation", "education", "élève", "eleve", "université", "universite", "enseignant", "recherche"],
+  "sante": ["santé", "sante", "hôpital", "hopital", "médecin", "medecin", "soins", "maladie", "protection sociale"],
+  "retraites": ["retraite", "retraites", "pension", "vieillissement", "âge légal", "age legal"]
+}

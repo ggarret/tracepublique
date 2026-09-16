@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0",
+  "comparisonId": "fixture-comparison-001",
+  "fixture": true,
+  "dossierId": "fixture-dossier-sans-candidat",
+  "corpus": {
+    "id": "fixture-corpus-001",
+    "version": "2026-09-15",
+    "sourceIds": ["source-fixture-a", "source-fixture-b"]
+  },
+  "analyses": {
+    "gpt": {
+      "modelVersion": "gpt-fixture-model-1",
+      "analyzedAt": "2026-09-15T09:00:00Z",
+      "prompt": { "id": "comparison-fixture-prompt", "version": "1.0", "text": "Analyse le corpus fourni, distingue faits, sources et incertitudes, puis abstiens-toi de noter si un élément essentiel manque." },
+      "corpusId": "fixture-corpus-001",
+      "facts": [
+        { "id": "fact-1", "statement": "Le corpus contient deux documents de référence.", "sourceIds": ["source-fixture-a", "source-fixture-b"] }
+      ],
+      "sourcesUsed": [
+        { "sourceId": "source-fixture-a", "role": "primary" },
+        { "sourceId": "source-fixture-b", "role": "context" }
+      ],
+      "strengths": ["Sépare les faits des incertitudes."],
+      "limitations": ["Ne dispose pas d'une donnée chiffrée dans le corpus."],
+      "uncertainties": ["La portée du second document doit être confirmée humainement."],
+      "nonScoringDecision": {
+        "nonScoring": true,
+        "reason": "Élément essentiel absent du corpus.",
+        "missingInformation": ["Donnée chiffrée vérifiable."],
+        "reconsiderationConditions": ["Ajouter une source primaire documentant cette donnée."]
+      }
+    },
+    "claude": {
+      "modelVersion": "claude-fixture-model-1",
+      "analyzedAt": "2026-09-15T09:05:00Z",
+      "prompt": { "id": "comparison-fixture-prompt", "version": "1.0", "text": "Analyse le corpus fourni, distingue faits, sources et incertitudes, puis abstiens-toi de noter si un élément essentiel manque." },
+      "corpusId": "fixture-corpus-001",
+      "facts": [
+        { "id": "fact-1", "statement": "Le corpus contient deux documents de référence.", "sourceIds": ["source-fixture-a"] }
+      ],
+      "sourcesUsed": [
+        { "sourceId": "source-fixture-a", "role": "primary" }
+      ],
+      "strengths": ["Identifie la limite documentaire."],
+      "limitations": ["Ne mobilise pas le document de contexte."],
+      "uncertainties": ["La date d'applicabilité n'est pas établie."],
+      "nonScoringDecision": {
+        "nonScoring": true,
+        "reason": "Le corpus ne permet pas une évaluation complète.",
+        "missingInformation": ["Base juridique et données d'impact."],
+        "reconsiderationConditions": ["Compléter le corpus puis relancer les deux prompts identiques."]
+      }
+    }
+  },
+  "comparison": {
+    "agreements": ["Les deux analyses signalent une information manquante."],
+    "disagreements": [
+      {
+        "topic": "Couverture des sources",
+        "gptPosition": "Les deux documents sont utiles.",
+        "claudePosition": "Seule la source primaire est mobilisée.",
+        "resolutionStatus": "unresolved"
+      }
+    ]
+  }
+}

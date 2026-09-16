@@ -1,0 +1,86 @@
+[
+  {
+    "id": "record-philippe-retraites-2019",
+    "candidateId": "edouard-philippe",
+    "themeId": "retraites",
+    "kind": "government_action",
+    "title": "Comme Premier ministre, il défendait déjà l'idée de travailler plus longtemps",
+    "summary": "Dans sa déclaration de politique générale de juin 2019, Édouard Philippe annonçait le maintien d'un départ possible à 62 ans, accompagné d'un âge d'équilibre et d'incitations à travailler plus longtemps.",
+    "date": "2019-06-13",
+    "relationship": "continuity",
+    "conclusion": "Continuité documentée sur l'objectif de prolongation de l'activité. La création aujourd'hui proposée d'un pilier de capitalisation constitue en revanche un instrument supplémentaire.",
+    "relatedProposalIds": ["proposal-philippe-capitalisation-2026"],
+    "sources": [
+      {
+        "title": "Déclaration de politique générale au Sénat",
+        "publisher": "Vie publique",
+        "url": "https://www.vie-publique.fr/discours/270262-edouard-philippe-13062019-declaration-de-politique-generale-senat",
+        "accessedAt": "2026-09-16",
+        "excerpt": "Le discours maintient la possibilité d'un départ à 62 ans tout en annonçant un âge d'équilibre et des incitations à travailler plus longtemps."
+      }
+    ]
+  },
+  {
+    "id": "record-ruffin-vacances-2023",
+    "candidateId": "francois-ruffin",
+    "themeId": "economie",
+    "kind": "bill",
+    "title": "Une proposition de loi de 2023 prévoyait déjà un billet TER illimité à 29 euros",
+    "summary": "François Ruffin a déposé avec plusieurs députés une proposition de loi portant mesures d'urgence pour les vacances, incluant un billet illimité à 29 euros sur le réseau TER pendant l'été.",
+    "date": "2023-07-04",
+    "relationship": "continuity",
+    "conclusion": "La mesure de campagne 2026 reprend une proposition parlementaire déposée trois ans auparavant : il s'agit d'une continuité, pas d'une contradiction.",
+    "relatedProposalIds": ["proposal-ruffin-ter-29-euros-2026"],
+    "sources": [
+      {
+        "title": "Proposition de loi portant mesures d'urgence pour les vacances, n° 1480",
+        "publisher": "Assemblée nationale",
+        "url": "https://questions.assemblee-nationale.fr/dyn/16/textes/l16b1480_proposition-loi.pdf",
+        "accessedAt": "2026-09-16",
+        "excerpt": "L'article 3 proposait un billet illimité à 29 euros sur le réseau TER national du 1er juillet au 31 août 2023."
+      }
+    ]
+  },
+  {
+    "id": "record-roussel-energie-2022",
+    "candidateId": "fabien-roussel",
+    "themeId": "ecologie",
+    "kind": "past_program",
+    "title": "Le programme 2022 associait déjà nucléaire, renouvelables et maîtrise publique",
+    "summary": "Le programme présidentiel du PCF proposait un mix énergétique 100 % public et décarboné, avec des investissements dans les renouvelables et au moins six EPR supplémentaires.",
+    "date": "2022-01-01",
+    "relationship": "continuity",
+    "conclusion": "La proposition formulée en 2026 de doubler la production d'électricité décarbonée prolonge cette orientation. Les volumes, le calendrier et le financement doivent encore être rapprochés précisément.",
+    "relatedProposalIds": ["proposal-roussel-electricite-decarbonee-2026"],
+    "sources": [
+      {
+        "title": "Le programme de la France des jours heureux",
+        "publisher": "Parti communiste français",
+        "url": "https://esr.pcf.fr/sites/default/files/programme_de_la_france_des_jours_heureux.pdf",
+        "accessedAt": "2026-09-16",
+        "excerpt": "La mesure 55 proposait un mix 100 % public et 100 % décarboné et la construction d'au moins six EPR supplémentaires."
+      }
+    ]
+  },
+  {
+    "id": "record-le-pen-retraites-2023",
+    "candidateId": "marine-le-pen",
+    "themeId": "retraites",
+    "kind": "vote",
+    "title": "Motion de censure déposée contre la réforme des retraites de 2023",
+    "summary": "Après l'engagement du 49.3 sur la réforme portant l'âge légal à 64 ans, Marine Le Pen et 87 députés ont déposé une motion de censure, rejetée le 20 mars 2023.",
+    "date": "2023-03-20",
+    "relationship": "context",
+    "conclusion": "Ce vote documente une opposition à la réforme de 2023. Il ne suffit pas, à lui seul, à établir la cohérence de l'ensemble des propositions de retraite du RN.",
+    "relatedProposalIds": [],
+    "sources": [
+      {
+        "title": "Réforme des retraites : rejet de deux motions de censure et adoption du texte",
+        "publisher": "Assemblée nationale",
+        "url": "https://www.assemblee-nationale.fr/dyn/actualites-accueil-hub/reforme-des-retraites-plfrss-pour-2023-rejet-de-deux-motions-de-censure-et-adoption-du-texte-lecture-cmp",
+        "accessedAt": "2026-09-16",
+        "excerpt": "L'Assemblée nationale indique qu'une motion de censure a été déposée par Marine Le Pen et 87 collègues après le recours au 49.3."
+      }
+    ]
+  }
+]

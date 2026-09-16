@@ -1,0 +1,112 @@
+[
+  {
+    "id": "program-marine-le-pen-2027",
+    "candidateId": "marine-le-pen",
+    "title": "Site officiel de campagne — présidentielle 2027",
+    "url": "https://marinelepen.com/",
+    "publisher": "Campagne officielle de Marine Le Pen",
+    "sourceKind": "officielle",
+    "status": "orientations_a_qualifier",
+    "checkedAt": "2026-09-15",
+    "note": "Page officielle repérée ; programme détaillé à qualifier séparément."
+  },
+  {
+    "id": "program-jean-luc-melenchon-2027",
+    "candidateId": "jean-luc-melenchon",
+    "title": "L'Avenir en commun — édition 2025",
+    "url": "https://melenchon2027.fr/programme2025/livre/",
+    "publisher": "Campagne Jean-Luc Mélenchon 2027 / La France insoumise",
+    "sourceKind": "officielle",
+    "status": "socle_programmatique_2027",
+    "checkedAt": "2026-09-16",
+    "note": "Socle programmatique officiel réédité en 2025 et mobilisé pour 2027 ; chaque mesure reste datée et qualifiée séparément."
+  },
+  {
+    "id": "program-edouard-philippe-2027",
+    "candidateId": "edouard-philippe",
+    "title": "Les priorités d'Édouard Philippe",
+    "url": "https://www.edouardphilippe.fr/",
+    "publisher": "Campagne officielle d'Édouard Philippe",
+    "sourceKind": "officielle",
+    "status": "orientations_2027",
+    "checkedAt": "2026-09-15",
+    "note": "Quatre axes de campagne affichés ; les pages détaillées doivent être extraites et versionnées."
+  },
+  {
+    "id": "program-raphael-glucksmann-2027",
+    "candidateId": "raphael-glucksmann",
+    "title": "Le programme — Raphaël Glucksmann 2027",
+    "url": "https://raphaelglucksmann.eu/programme.html",
+    "publisher": "Campagne officielle de Raphaël Glucksmann",
+    "sourceKind": "officielle",
+    "status": "programme_progressif_2027",
+    "checkedAt": "2026-09-15",
+    "note": "Programme annoncé comme publié progressivement ; chaque mesure doit conserver sa date de version."
+  },
+  {
+    "id": "program-gabriel-attal-2027",
+    "candidateId": "gabriel-attal",
+    "title": "Programme — Attal Président",
+    "url": "https://attalpresident.fr/",
+    "publisher": "Campagne officielle de Gabriel Attal",
+    "sourceKind": "campagne",
+    "status": "programme_progressif_2027",
+    "checkedAt": "2026-09-16",
+    "note": "Programme thématique de campagne publié progressivement ; les pages sont enregistrées comme sources distinctes et datées."
+  },
+  {
+    "id": "program-bruno-retailleau-2027",
+    "candidateId": "bruno-retailleau",
+    "title": "Nos propositions pour la France — Travail gagnant",
+    "url": "https://republicains.fr/wp-content/uploads/2026/01/LesRepublicains_NosPropositionsPourLaFrance_TravailGagnant.pdf",
+    "publisher": "Les Républicains",
+    "sourceKind": "officielle",
+    "status": "document_programmatique_2027",
+    "checkedAt": "2026-09-15",
+    "note": "Document officiel du parti ; extraction et rattachement aux huit thèmes à effectuer."
+  },
+  {
+    "id": "program-francois-ruffin-2027",
+    "candidateId": "francois-ruffin",
+    "title": "Cahiers de campagne — Nous Président",
+    "url": "https://nouspresident.fr/",
+    "publisher": "Campagne Debout ! / François Ruffin",
+    "sourceKind": "campagne",
+    "status": "programme_partiel_2027",
+    "checkedAt": "2026-09-16",
+    "note": "Quatre cahiers de campagne officiels sont publiés à ce stade ; couverture partielle et évolutive du programme 2027."
+  },
+  {
+    "id": "program-marine-tondelier-2027",
+    "candidateId": "marine-tondelier",
+    "title": "Programme écologiste 2027 — 557 mesures",
+    "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf",
+    "publisher": "Les Écologistes",
+    "sourceKind": "formation_politique",
+    "status": "programme_collectif_2027",
+    "checkedAt": "2026-09-16",
+    "note": "Programme officiel collectif des Écologistes ; rattachement à Marine Tondelier explicitement qualifié comme programme de formation et non comme engagement personnel."
+  },
+  {
+    "id": "program-eric-zemmour-2027",
+    "candidateId": "eric-zemmour",
+    "title": "Le programme d'Éric Zemmour",
+    "url": "https://programme.ericzemmour.fr/",
+    "publisher": "Campagne d'Éric Zemmour",
+    "sourceKind": "officielle",
+    "status": "programme_anterieur_a_requalifier",
+    "checkedAt": "2026-09-15",
+    "note": "Programme officiel accessible ; millésime et applicabilité à 2027 à qualifier avant analyse."
+  },
+  {
+    "id": "program-fabien-roussel-2027",
+    "candidateId": "fabien-roussel",
+    "title": "Programme de La France des jours heureux",
+    "url": "https://esr.pcf.fr/sites/default/files/programme_de_la_france_des_jours_heureux.pdf",
+    "publisher": "Parti communiste français",
+    "sourceKind": "officielle",
+    "status": "document_programmatique_a_requalifier",
+    "checkedAt": "2026-09-15",
+    "note": "Document officiel du PCF ; version et statut présidentiel 2027 à vérifier avant publication."
+  }
+]

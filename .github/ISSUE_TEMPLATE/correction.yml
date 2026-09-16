@@ -1,0 +1,54 @@
+name: Signaler une erreur factuelle
+description: Proposer une correction sourcée sur une fiche ou une donnée publique.
+title: "[Correction] "
+labels:
+  - correction
+body:
+  - type: markdown
+    attributes:
+      value: Merci de distinguer une erreur factuelle d'un désaccord d'analyse ou d'opinion.
+  - type: input
+    id: page
+    attributes:
+      label: Page concernée
+      description: URL ou chemin exact de la fiche.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Information à corriger
+      description: Décrivez précisément l'information qui semble incorrecte.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correction proposée
+      description: Indiquez la formulation ou la donnée qui devrait la remplacer.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source vérifiable
+      description: Privilégiez une source primaire ou institutionnelle.
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: checked_at
+    attributes:
+      label: Date de consultation
+      placeholder: AAAA-MM-JJ
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Vérifications
+      options:
+        - label: Je n'ai inclus aucune donnée personnelle ni information sensible.
+          required: true
+        - label: Cette demande ne contient pas une vulnérabilité de sécurité.
+          required: true

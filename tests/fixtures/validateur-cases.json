@@ -1,0 +1,32 @@
+[
+  {
+    "id": "validateur-valide",
+    "suggestion": {"sourceId": "fixture-source-001", "decision": "proposition", "candidateId": "bruno-retailleau", "candidateConfidence": "forte", "presidentialRelevance": "prochain_mandat", "themeId": "institutions", "claim": "Réviser la Constitution.", "quote": "Je réviserai la Constitution.", "primarySource": "fixture-source-001", "duplicateOf": null, "confidence": "forte", "reasons": ["Déclaration directe pour 2027."], "warnings": [], "status": "a_revoir"},
+    "evidence": {"sourceAccessible": true, "quotePresent": true, "candidateConfirmed": true, "presidentialIntentClear": true, "themeKnown": true, "duplicateAmbiguous": false},
+    "expected": {"decision": "valide", "essentialFailures": 0}
+  },
+  {
+    "id": "validateur-citation-inventee",
+    "suggestion": {"sourceId": "fixture-source-002", "decision": "proposition", "candidateId": "jean-luc-melenchon", "candidateConfidence": "forte", "presidentialRelevance": "prochain_mandat", "themeId": "economie", "claim": "Bloquer les marges.", "quote": "Jean-Luc Mélenchon promet de bloquer les marges.", "primarySource": "fixture-source-002", "duplicateOf": null, "confidence": "forte", "reasons": [], "warnings": [], "status": "a_revoir"},
+    "evidence": {"sourceAccessible": true, "quotePresent": false, "candidateConfirmed": true, "presidentialIntentClear": false, "themeKnown": true, "duplicateAmbiguous": false},
+    "expected": {"decision": "revue_humaine", "essentialFailures": 1}
+  },
+  {
+    "id": "validateur-attribution-erronee",
+    "suggestion": {"sourceId": "fixture-source-003", "decision": "proposition", "candidateId": "marine-le-pen", "candidateConfidence": "forte", "presidentialRelevance": "prochain_mandat", "themeId": "securite", "claim": "Marine Le Pen porte cette mesure.", "quote": "Le RN souhaite cette mesure.", "primarySource": "fixture-source-003", "duplicateOf": null, "confidence": "forte", "reasons": [], "warnings": [], "status": "a_revoir"},
+    "evidence": {"sourceAccessible": true, "quotePresent": true, "candidateConfirmed": false, "presidentialIntentClear": false, "themeKnown": true, "duplicateAmbiguous": false},
+    "expected": {"decision": "revue_humaine", "essentialFailures": 1}
+  },
+  {
+    "id": "validateur-doublon",
+    "suggestion": {"sourceId": "fixture-source-004", "decision": "proposition", "candidateId": "jean-luc-melenchon", "candidateConfidence": "forte", "presidentialRelevance": "prochain_mandat", "themeId": "economie", "claim": "Bloquer les marges.", "quote": "Bloquer les marges.", "primarySource": "fixture-source-004", "duplicateOf": "proposal-carburant-001", "confidence": "moyenne", "reasons": [], "warnings": [], "status": "a_revoir"},
+    "evidence": {"sourceAccessible": true, "quotePresent": true, "candidateConfirmed": true, "presidentialIntentClear": true, "themeKnown": true, "duplicateAmbiguous": true},
+    "expected": {"decision": "revue_humaine", "essentialFailures": 0}
+  },
+  {
+    "id": "validateur-hors-perimetre",
+    "suggestion": {"sourceId": "fixture-source-005", "decision": "hors_perimetre", "candidateId": null, "candidateConfidence": "faible", "presidentialRelevance": "autre_mandat", "themeId": null, "claim": null, "quote": null, "primarySource": null, "duplicateOf": null, "confidence": "forte", "reasons": ["Biographie d'une personne non suivie."], "warnings": [], "status": "a_revoir"},
+    "evidence": {"sourceAccessible": true, "quotePresent": false, "candidateConfirmed": false, "presidentialIntentClear": false, "themeKnown": false, "duplicateAmbiguous": false},
+    "expected": {"decision": "rejette", "essentialFailures": 0}
+  }
+]

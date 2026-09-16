@@ -1,0 +1,30 @@
+name: Questionner la méthode
+description: Proposer une amélioration des sources, critères, règles ou contrôles.
+title: "[Méthode] "
+labels:
+  - methodologie
+body:
+  - type: textarea
+    id: current_rule
+    attributes:
+      label: Règle ou étape concernée
+      description: Indiquez le document, le critère ou l'étape du pipeline.
+    validations:
+      required: true
+  - type: textarea
+    id: limitation
+    attributes:
+      label: Limite observée
+      description: Expliquez le biais, le risque ou le cas non couvert.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Évolution proposée
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Références ou exemples
