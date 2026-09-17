@@ -1,0 +1,3 @@
+# Les workflows de CI et de déploiement exigent la revue du mainteneur.
+.github/workflows/ @ggarret
+.github/CODEOWNERS @ggarret
